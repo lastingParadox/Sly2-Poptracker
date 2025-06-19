@@ -1,0 +1,160 @@
+[
+    {
+        "name": "The Predator Awakes",
+        "access_rules": ["$has_item|progressive_predator_awakes|1"],
+        "children": [
+            {
+                "name": "Spice Room Recon",
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 212,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "Water Bug Run",
+                "access_rules": ["$has_item|progressive_predator_awakes|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 217,
+                        "y": 627
+                    }
+                ]
+            },
+            {
+                "name": "Freeing the Elephant",
+                "access_rules": ["$has_item|progressive_predator_awakes|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 334,
+                        "y": 828
+                    }
+                ]
+            },
+            {
+                "name": "Leading Rajan",
+                "access_rules": ["$has_item|progressive_predator_awakes|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 830,
+                        "y": 445
+                    }
+                ]
+            },
+            {
+                "name": "Neyla's Secret",
+                "access_rules": ["$has_item|progressive_predator_awakes|3"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 300,
+                        "y": 355
+                    }
+                ]
+            },
+            {
+                "name": "Spice Grinder Destruction",
+                "access_rules": ["$has_item|progressive_predator_awakes|3"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 873,
+                        "y": 551
+                    }
+                ]
+            },
+            {
+                "name": "Blow the Dam",
+                "access_rules": ["$has_item|progressive_predator_awakes|3"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 1081,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "Rip-Off the Ruby",
+                "access_rules": ["$has_item|progressive_predator_awakes|3"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 670,
+                        "y": 270
+                    }
+                ]
+            },
+            {
+                "name": "Operation: Wet Tiger",
+                "access_rules": ["$has_item|progressive_predator_awakes|4"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 871,
+                        "y": 846
+                    }
+                ]
+            },
+            {
+                "name": "Golden Scroll Case Treasure",
+                "sections": [{ "name": "Golden Scroll Case Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 377,
+                        "y": 106
+                    }
+                ]
+            },
+            {
+                "name": "Gilded Scepter Treasure",
+                "sections": [{ "name": "Gilded Scepter Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 594,
+                        "y": 246
+                    }
+                ]
+            },
+            {
+                "name": "Crystal Flask Treasure",
+                "sections": [{ "name": "Crystal Flask Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 1010,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "The Predator Awakes Vault",
+                "access_rules": ["$has_item|progressive_predator_awakes|2"],
+                "sections": [{ "name": "The Predator Awakes Vault" }],
+                "map_locations": [
+                    {
+                        "map": "The Predator Awakes",
+                        "x": 863,
+                        "y": 112
+                    }
+                ]
+            }
+        ]
+    }
+]

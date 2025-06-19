@@ -1,0 +1,150 @@
+[
+    {
+        "name": "A Tangled Web",
+        "access_rules": ["$has_item|progressive_tangled_web|1"],
+        "children": [
+            {
+                "name": "Know Your Enemy",
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 987,
+                        "y": 749
+                    }
+                ]
+            },
+            {
+                "name": "Ghost Capture",
+                "access_rules": ["$has_item|progressive_tangled_web|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 396,
+                        "y": 821
+                    }
+                ]
+            },
+            {
+                "name": "Mojo Trap Action",
+                "access_rules": ["$has_item|progressive_tangled_web|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 113,
+                        "y": 689
+                    }
+                ]
+            },
+            {
+                "name": "Kidnap the General",
+                "access_rules": ["$has_item|progressive_tangled_web|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 565,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Stealing Voices",
+                "access_rules": ["$has_item|progressive_tangled_web|3"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 967,
+                        "y": 377
+                    }
+                ]
+            },
+            {
+                "name": "Tank Showdown",
+                "access_rules": ["$has_item|progressive_tangled_web|3"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 636,
+                        "y": 547
+                    }
+                ]
+            },
+            {
+                "name": "Crypt Hack",
+                "access_rules": ["$has_item|progressive_tangled_web|3"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 239,
+                        "y": 426
+                    }
+                ]
+            },
+            {
+                "name": "Operation: High Road",
+                "access_rules": [
+                    "$has_item|progressive_tangled_web|4, paraglider"
+                ],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 631,
+                        "y": 658
+                    }
+                ]
+            },
+            {
+                "name": "Royal Tiara Treasure",
+                "sections": [{ "name": "Royal Tiara Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 68,
+                        "y": 660
+                    }
+                ]
+            },
+            {
+                "name": "Jeweled Crown Treasure",
+                "sections": [{ "name": "Jeweled Crown Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 396,
+                        "y": 424
+                    }
+                ]
+            },
+            {
+                "name": "Crystal Vase Treasure",
+                "access_rules": ["megajump", "paraglider"],
+                "sections": [{ "name": "Crystal Vase Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 648,
+                        "y": 665
+                    }
+                ]
+            },
+            {
+                "name": "A Tangled Web Vault",
+                "sections": [{ "name": "A Tangled Web Vault" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 373,
+                        "y": 407
+                    }
+                ]
+            }
+        ]
+    }
+]

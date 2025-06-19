@@ -1,0 +1,198 @@
+[
+    {
+        "name": "The Black Chateau",
+        "access_rules": ["$has_item|progressive_black_chateau|1"],
+        "children": [
+            {
+                "name": "Satellite Sabotage",
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 219,
+                        "y": 441
+                    }
+                ]
+            },
+            {
+                "name": "Breaking and Entering",
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 1153,
+                        "y": 594
+                    }
+                ]
+            },
+            {
+                "name": "Bug Dimitri's Office",
+                "access_rules": ["$has_item|progressive_black_chateau|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 827,
+                        "y": 807
+                    }
+                ]
+            },
+            {
+                "name": "Follow Dimitri",
+                "access_rules": ["$has_item|progressive_black_chateau|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 387,
+                        "y": 864
+                    }
+                ]
+            },
+            {
+                "name": "Waterpump Destruction",
+                "access_rules": ["$has_item|progressive_black_chateau|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 238,
+                        "y": 325
+                    }
+                ]
+            },
+            {
+                "name": "Silence the Alarms",
+                "access_rules": ["$has_item|progressive_black_chateau|3"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 398,
+                        "y": 169
+                    }
+                ]
+            },
+            {
+                "name": "Theater Pickpocketing",
+                "access_rules": ["$has_item|progressive_black_chateau|3"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 861,
+                        "y": 354
+                    }
+                ]
+            },
+            {
+                "name": "Moonlight Rendezvous",
+                "access_rules": ["$has_item|progressive_black_chateau|3"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 1009,
+                        "y": 880
+                    }
+                ]
+            },
+            {
+                "name": "Disco Demolitions",
+                "access_rules": ["$has_item|progressive_black_chateau|3"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 533,
+                        "y": 217
+                    }
+                ]
+            },
+            {
+                "name": "Operation: Thunder Beak",
+                "access_rules": ["$has_item|progressive_black_chateau|4"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 492,
+                        "y": 785
+                    }
+                ]
+            },
+            {
+                "name": "Jade Vase Treasure",
+                "access_rules": ["$has_item|progressive_black_chateau|2"],
+                "sections": [{ "name": "Jade Vase Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 408,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "Jade Vase Treasure",
+                "access_rules": ["$has_item|progressive_black_chateau|2"],
+                "sections": [{ "name": "Jade Vase Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 408,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "Crystal Chalice Treasure",
+                "access_rules": ["$has_item|progressive_black_chateau|2"],
+                "sections": [{ "name": "Crystal Chalice Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 526,
+                        "y": 176
+                    }
+                ]
+            },
+            {
+                "name": "Ivory Jewel Box Treasure",
+                "access_rules": ["$has_item|progressive_black_chateau|2"],
+                "sections": [{ "name": "Ivory Jewel Box Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 813,
+                        "y": 238
+                    }
+                ]
+            },
+            {
+                "name": "Ivory Jewel Box Treasure",
+                "access_rules": ["$has_item|progressive_black_chateau|2"],
+                "sections": [{ "name": "Ivory Jewel Box Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 813,
+                        "y": 238
+                    }
+                ]
+            },
+            {
+                "name": "The Black Chateau Vault",
+                "access_rules": ["$has_item|progressive_black_chateau|2"],
+                "sections": [{ "name": "The Black Chateau Vault" }],
+                "map_locations": [
+                    {
+                        "map": "The Black Chateau",
+                        "x": 431,
+                        "y": 227
+                    }
+                ]
+            }
+        ]
+    }
+]

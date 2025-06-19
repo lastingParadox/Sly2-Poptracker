@@ -1,0 +1,68 @@
+{
+    "layouts": {
+        "tracker_default": {
+            "type": "container",
+            "background": "#00000000",
+            "content": {
+                "type": "dock",
+                "dropshadow": true,
+                "content": [
+                    {
+                        "type": "dock",
+                        "dock": "left",
+                        "content": [
+                            {
+                                "type": "group",
+                                "header": "Episodes",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "episode_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Power-Ups",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "powerup_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Clockwerk Parts",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "clockwerk_grid"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "v_alignment": "stretch",
+                        "margin": "0, 0",
+                        "content": [
+                            {
+                                "type": "layout",
+                                "key": "episode_tabs"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "settings_popup": {
+            "type": "container",
+            "background": "#000000",
+            "margin": "0, 0",
+            "content": [
+                {
+                    "type": "layout",
+                    "key": "settings"
+                }
+            ]
+        }
+    }
+}

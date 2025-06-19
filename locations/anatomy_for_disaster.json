@@ -1,0 +1,129 @@
+[
+    {
+        "name": "Anatomy for Disaster",
+        "access_rules": ["$anatomy_for_disaster_check|1"],
+        "children": [
+            {
+                "name": "Blimp HQ Recon",
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 315,
+                        "y": 202
+                    }
+                ]
+            },
+            {
+                "name": "Charged TNT Run",
+                "access_rules": ["$anatomy_for_disaster_check|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 469,
+                        "y": 568
+                    }
+                ]
+            },
+            {
+                "name": "Murray/Sly Tag Team",
+                "access_rules": ["$anatomy_for_disaster_check|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 1035,
+                        "y": 254
+                    }
+                ]
+            },
+            {
+                "name": "Sly/Bentley Conspire",
+                "access_rules": ["$anatomy_for_disaster_check|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 966,
+                        "y": 572
+                    }
+                ]
+            },
+            {
+                "name": "Bentley/Murray Team Up",
+                "access_rules": ["$anatomy_for_disaster_check|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 1032,
+                        "y": 657
+                    }
+                ]
+            },
+            {
+                "name": "Mega-Jump Job + Carmelita's Gunner",
+                "access_rules": ["$anatomy_for_disaster_check|3"],
+                "sections": [
+                    { "name": "Mega-Jump Job Complete" },
+                    {
+                        "name": "Carmelita's Gunner Complete",
+                        "access_rules": ["$anatomy_for_disaster_check|4"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 1117,
+                        "y": 373
+                    }
+                ]
+            },
+            {
+                "name": "Golden Headdress Treasure",
+                "sections": [{ "name": "Golden Headdress Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 374,
+                        "y": 732
+                    }
+                ]
+            },
+            {
+                "name": "Jeweled Egg Treasure",
+                "sections": [{ "name": "Jeweled Egg Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 184,
+                        "y": 321
+                    }
+                ]
+            },
+            {
+                "name": "Golden Vase Treasure",
+                "sections": [{ "name": "Golden Vase Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 391,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Anatomy for Disaster Vault",
+                "sections": [{ "name": "Anatomy for Disaster Vault" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 584,
+                        "y": 203
+                    }
+                ]
+            }
+        ]
+    }
+]

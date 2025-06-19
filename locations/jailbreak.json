@@ -1,0 +1,157 @@
+[
+    {
+        "name": "Jailbreak",
+        "access_rules": ["$has_item|progressive_jailbreak|1"],
+        "children": [
+            {
+                "name": "Eavesdrop on Contessa",
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 1039,
+                        "y": 303
+                    }
+                ]
+            },
+            {
+                "name": "Train Hack",
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 397,
+                        "y": 770
+                    }
+                ]
+            },
+            {
+                "name": "Wall Bombing",
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 1012,
+                        "y": 822
+                    }
+                ]
+            },
+            {
+                "name": "Big House Brawl",
+                "access_rules": ["$has_item|progressive_jailbreak|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 610,
+                        "y": 653
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Action",
+                "access_rules": ["$has_item|progressive_jailbreak|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 625,
+                        "y": 240
+                    }
+                ]
+            },
+            {
+                "name": "Disguise Bridge",
+                "access_rules": ["$has_item|progressive_jailbreak|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 1018,
+                        "y": 528
+                    }
+                ]
+            },
+            {
+                "name": "Code Capture",
+                "access_rules": ["$has_item|progressive_jailbreak|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 612,
+                        "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "Close to Contessa",
+                "access_rules": ["$has_item|progressive_jailbreak|2"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 922,
+                        "y": 445
+                    }
+                ]
+            },
+            {
+                "name": "Operation: Trojan Tank",
+                "access_rules": ["$has_item|progressive_jailbreak|3"],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 380,
+                        "y": 905
+                    }
+                ]
+            },
+            {
+                "name": "Golden Orb Treasure",
+                "sections": [{ "name": "Golden Orb Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 387,
+                        "y": 355
+                    }
+                ]
+            },
+            {
+                "name": "Ceremonial Lantern Treasure",
+                "sections": [{ "name": "Ceremonial Lantern Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 593,
+                        "y": 183
+                    }
+                ]
+            },
+            {
+                "name": "Crystal Ball Treasure",
+                "sections": [{ "name": "Crystal Ball Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 753,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Jailbreak Vault",
+                "sections": [{ "name": "Jailbreak Vault" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 1005,
+                        "y": 284
+                    }
+                ]
+            }
+        ]
+    }
+]

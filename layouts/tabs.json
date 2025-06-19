@@ -1,0 +1,63 @@
+{
+    "episode_tabs": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "The Black Chateau",
+                "content": {
+                    "type": "map",
+                    "maps": ["The Black Chateau"]
+                }
+            },
+            {
+                "title": "A Starry Eyed Encounter",
+                "content": {
+                    "type": "map",
+                    "maps": ["A Starry Eyed Encounter"]
+                }
+            },
+            {
+                "title": "The Predator Awakes",
+                "content": {
+                    "type": "map",
+                    "maps": ["The Predator Awakes"]
+                }
+            },
+            {
+                "title": "Jailbreak",
+                "content": {
+                    "type": "map",
+                    "maps": ["Jailbreak"]
+                }
+            },
+            {
+                "title": "A Tangled Web",
+                "content": {
+                    "type": "map",
+                    "maps": ["A Tangled Web"]
+                }
+            },
+            {
+                "title": "He Who Tames the Iron Horse",
+                "content": {
+                    "type": "map",
+                    "maps": ["He Who Tames the Iron Horse"]
+                }
+            },
+            {
+                "title": "Menace from the North, eh!",
+                "content": {
+                    "type": "map",
+                    "maps": ["Menace from the North, eh!"]
+                }
+            },
+            {
+                "title": "Anatomy for Disaster",
+                "content": {
+                    "type": "map",
+                    "maps": ["Anatomy for Disaster"]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+Tracker:AddLocations("locations/the_black_chateau.json")
+Tracker:AddLocations("locations/a_starry_eyed_encounter.json")
+Tracker:AddLocations("locations/the_predator_awakes.json")
+Tracker:AddLocations("locations/jailbreak.json")
+Tracker:AddLocations("locations/a_tangled_web.json")
+Tracker:AddLocations("locations/he_who_tames_the_iron_horse.json")
+Tracker:AddLocations("locations/menace_from_the_north_eh.json")
+Tracker:AddLocations("locations/anatomy_for_disaster.json")

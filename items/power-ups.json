@@ -1,0 +1,240 @@
+[
+    {
+        "name": "Trigger Bomb",
+        "type": "toggle",
+        "img": "images/items/bentley/triggerbomb.png",
+        "img_mods": "",
+        "codes": "triggerbomb"
+    },
+    {
+        "name": "Size Destabilizer",
+        "type": "toggle",
+        "img": "images/items/bentley/sizedestabilizer.png",
+        "img_mods": "",
+        "codes": "sizedestabilizer"
+    },
+    {
+        "name": "Snooze Bomb",
+        "type": "toggle",
+        "img": "images/items/bentley/snoozebomb.png",
+        "img_mods": "",
+        "codes": "snoozebomb"
+    },
+    {
+        "name": "Adrenaline Burst",
+        "type": "toggle",
+        "img": "images/items/bentley/adrenalineburst.png",
+        "img_mods": "",
+        "codes": "adrenalineburst"
+    },
+    {
+        "name": "Health Extractor",
+        "type": "toggle",
+        "img": "images/items/bentley/healthextractor.png",
+        "img_mods": "",
+        "codes": "healthextractor"
+    },
+    {
+        "name": "Hover Pack",
+        "type": "toggle",
+        "img": "images/items/bentley/hoverpack.png",
+        "img_mods": "",
+        "codes": "hoverpack"
+    },
+    {
+        "name": "Reduction Bomb",
+        "type": "toggle",
+        "img": "images/items/bentley/reductionbomb.png",
+        "img_mods": "",
+        "codes": "reductionbomb"
+    },
+    {
+        "name": "Temporal Lock",
+        "type": "toggle",
+        "img": "images/items/bentley/temporallock.png",
+        "img_mods": "",
+        "codes": "temporallock"
+    },
+    {
+        "name": "Long Toss",
+        "type": "toggle",
+        "img": "images/items/bentley/longtoss.png",
+        "img_mods": "",
+        "codes": "longtoss"
+    },
+    {
+        "name": "Fists of Flame",
+        "type": "toggle",
+        "img": "images/items/murray/fistsofflame.png",
+        "img_mods": "",
+        "codes": "fistsofflame"
+    },
+    {
+        "name": "Turnbuckle Launch",
+        "type": "toggle",
+        "img": "images/items/murray/turnbucklelaunch.png",
+        "img_mods": "",
+        "codes": "turnbucklelaunch"
+    },
+    {
+        "name": "Juggernaut Throw",
+        "type": "toggle",
+        "img": "images/items/murray/juggernautthrow.png",
+        "img_mods": "",
+        "codes": "juggernautthrow"
+    },
+    {
+        "name": "Atlas Strength",
+        "type": "toggle",
+        "img": "images/items/murray/atlasstrength.png",
+        "img_mods": "",
+        "codes": "atlasstrength"
+    },
+    {
+        "name": "Raging Inferno Flop",
+        "type": "toggle",
+        "img": "images/items/murray/raginginfernoflop.png",
+        "img_mods": "",
+        "codes": "raginginfernoflop"
+    },
+    {
+        "name": "Berserker Charge",
+        "type": "toggle",
+        "img": "images/items/murray/berserkercharge.png",
+        "img_mods": "",
+        "codes": "berserkercharge"
+    },
+    {
+        "name": "Guttural Roar",
+        "type": "toggle",
+        "img": "images/items/murray/gutturalroar.png",
+        "img_mods": "",
+        "codes": "gutturalroar"
+    },
+    {
+        "name": "Diablo Fire Slam",
+        "type": "toggle",
+        "img": "images/items/murray/diablofireslam.png",
+        "img_mods": "",
+        "codes": "diablofireslam"
+    },
+    {
+        "name": "Smoke Bomb",
+        "type": "toggle",
+        "img": "images/items/sly/smokebomb.png",
+        "img_mods": "",
+        "codes": "smokebomb"
+    },
+    {
+        "name": "Combat Dodge",
+        "type": "toggle",
+        "img": "images/items/sly/combatdodge.png",
+        "img_mods": "",
+        "codes": "combatdodge"
+    },
+    {
+        "name": "Stealth Slide",
+        "type": "toggle",
+        "img": "images/items/sly/stealthslide.png",
+        "img_mods": "",
+        "codes": "stealthslide"
+    },
+    {
+        "name": "Alarm Clock",
+        "type": "toggle",
+        "img": "images/items/sly/alarmclock.png",
+        "img_mods": "",
+        "codes": "alarmclock"
+    },
+    {
+        "name": "Paraglider",
+        "type": "toggle",
+        "img": "images/items/sly/paraglider.png",
+        "img_mods": "",
+        "codes": "paraglider"
+    },
+    {
+        "name": "Silent Obliteration",
+        "type": "toggle",
+        "img": "images/items/sly/silentobliteration.png",
+        "img_mods": "",
+        "codes": "silentobliteration"
+    },
+    {
+        "name": "Thief Reflexes",
+        "type": "toggle",
+        "img": "images/items/sly/thiefreflexes.png",
+        "img_mods": "",
+        "codes": "thiefreflexes"
+    },
+    {
+        "name": "Feral Pounce",
+        "type": "toggle",
+        "img": "images/items/sly/feralpounce.png",
+        "img_mods": "",
+        "codes": "feralpounce"
+    },
+    {
+        "name": "Knockout Dive",
+        "type": "toggle",
+        "img": "images/items/sly/knockoutdive.png",
+        "img_mods": "",
+        "codes": "knockoutdive"
+    },
+    {
+        "name": "Insanity Strike",
+        "type": "toggle",
+        "img": "images/items/sly/insanitystrike.png",
+        "img_mods": "",
+        "codes": "insanitystrike"
+    },
+    {
+        "name": "Voltage Attack",
+        "type": "toggle",
+        "img": "images/items/sly/voltageattack.png",
+        "img_mods": "",
+        "codes": "voltageattack"
+    },
+    {
+        "name": "Rage Bomb",
+        "type": "toggle",
+        "img": "images/items/sly/ragebomb.png",
+        "img_mods": "",
+        "codes": "ragebomb"
+    },
+    {
+        "name": "Music Box",
+        "type": "toggle",
+        "img": "images/items/sly/musicbox.png",
+        "img_mods": "",
+        "codes": "musicbox"
+    },
+    {
+        "name": "Lightning Spin",
+        "type": "toggle",
+        "img": "images/items/sly/lightningspin.png",
+        "img_mods": "",
+        "codes": "lightningspin"
+    },
+    {
+        "name": "Shadow Power",
+        "type": "toggle",
+        "img": "images/items/sly/shadowpower.png",
+        "img_mods": "",
+        "codes": "shadowpower"
+    },
+    {
+        "name": "Mega Jump",
+        "type": "toggle",
+        "img": "images/items/sly/megajump.png",
+        "img_mods": "",
+        "codes": "megajump"
+    },
+    {
+        "name": "TOM",
+        "type": "toggle",
+        "img": "images/items/sly/tom.png",
+        "img_mods": "",
+        "codes": "tom"
+    }
+]

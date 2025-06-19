@@ -1,0 +1,161 @@
+[
+    {
+        "name": "He Who Tames the Iron Horse",
+        "access_rules": ["$has_item|progressive_he_who_tames_the_iron_horse|1"],
+        "children": [
+            {
+                "name": "Cabin Crimes",
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "He Who Tames the Iron Horse",
+                        "x": 625,
+                        "y": 213
+                    }
+                ]
+            },
+            {
+                "name": "Spice in the Sky",
+                "access_rules": [
+                    "$has_item|progressive_he_who_tames_the_iron_horse|2, paraglider"
+                ],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "He Who Tames the Iron Horse",
+                        "x": 819,
+                        "y": 96
+                    }
+                ]
+            },
+            {
+                "name": "A Friend in Need",
+                "access_rules": [
+                    "$has_item|progressive_he_who_tames_the_iron_horse|2"
+                ],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "He Who Tames the Iron Horse",
+                        "x": 286,
+                        "y": 356
+                    }
+                ]
+            },
+            {
+                "name": "Ride the Iron Horse",
+                "access_rules": [
+                    "$has_item|progressive_he_who_tames_the_iron_horse|2, paraglider"
+                ],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "He Who Tames the Iron Horse",
+                        "x": 602,
+                        "y": 497
+                    }
+                ]
+            },
+            {
+                "name": "Aerial Assault",
+                "access_rules": [
+                    "$has_item|progressive_he_who_tames_the_iron_horse|3, paraglider"
+                ],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "He Who Tames the Iron Horse",
+                        "x": 728,
+                        "y": 359
+                    }
+                ]
+            },
+            {
+                "name": "Bear Cub Kidnapping",
+                "access_rules": [
+                    "$has_item|progressive_he_who_tames_the_iron_horse|3, paraglider"
+                ],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "He Who Tames the Iron Horse",
+                        "x": 993,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "Theft on the Rails",
+                "access_rules": [
+                    "$has_item|progressive_he_who_tames_the_iron_horse|3, paraglider"
+                ],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "He Who Tames the Iron Horse",
+                        "x": 159,
+                        "y": 415
+                    }
+                ]
+            },
+            {
+                "name": "Operation: Choo-Choo",
+                "access_rules": [
+                    "$has_item|progressive_he_who_tames_the_iron_horse|4, paraglider"
+                ],
+                "sections": [{ "name": "Job Complete" }],
+                "map_locations": [
+                    {
+                        "map": "He Who Tames the Iron Horse",
+                        "x": 705,
+                        "y": 725
+                    }
+                ]
+            },
+            {
+                "name": "Crystal Bell Treasure",
+                "sections": [{ "name": "Crystal Bell Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "He Who Tames the Iron Horse",
+                        "x": 939,
+                        "y": 347
+                    }
+                ]
+            },
+            {
+                "name": "Alabaster Chalice Treasure",
+                "sections": [{ "name": "Alabaster Chalice Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "He Who Tames the Iron Horse",
+                        "x": 1081,
+                        "y": 450
+                    }
+                ]
+            },
+            {
+                "name": "Golden Plate Treasure",
+                "sections": [{ "name": "Golden Plate Treasure" }],
+                "map_locations": [
+                    {
+                        "map": "He Who Tames the Iron Horse",
+                        "x": 809,
+                        "y": 431
+                    }
+                ]
+            },
+            {
+                "name": "He Who Tames the Iron Horse Vault",
+                "sections": [{ "name": "He Who Tames the Iron Horse Vault" }],
+                "map_locations": [
+                    {
+                        "map": "He Who Tames the Iron Horse",
+                        "x": 185,
+                        "y": 406
+                    }
+                ]
+            }
+        ]
+    }
+]

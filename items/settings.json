@@ -1,0 +1,62 @@
+[
+    {
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "inherit_codes": "false",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/system/episode_8_keys_0.png",
+                "inherit_codes": "false",
+                "codes": "episode8keysfirst"
+            },
+            {
+                "img": "images/system/episode_8_keys_1.png",
+                "inherit_codes": "false",
+                "codes": "episode8keyslast"
+            },
+            {
+                "img": "images/system/episode_8_keys_2.png",
+                "inherit_codes": "false",
+                "codes": "episode8keysepisode"
+            },
+            {
+                "img": "images/system/episode_8_keys_3.png",
+                "inherit_codes": "false",
+                "codes": "episode8keysoff"
+            }
+        ]
+    },
+    {
+        "name": "Required Keys Episode 8",
+        "type": "consumable",
+        "initial_quantity": 10,
+        "min_quantity": 1,
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "overlay_font_size": 30,
+        "overlay_align": "center",
+        "img": "images/system/episode_8_required_keys.png",
+        "img_mods": "",
+        "codes": "episode8keysrequired"
+    },
+    {
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "inherit_codes": "false",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/system/bottlesanity_off.png",
+                "inherit_codes": "false",
+                "codes": "bottlesanityoff"
+            },
+            {
+                "img": "images/system/bottlesanity_on.png",
+                "inherit_codes": "false",
+                "codes": "bottlesanityon"
+            }
+        ]
+    }
+]

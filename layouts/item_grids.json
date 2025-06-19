@@ -1,0 +1,167 @@
+{
+    "powerup_grid": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Sly",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "h_alignment": "center",
+                        "item_margin": "3,2",
+                        "item_size": 75,
+                        "rows": [
+                            [
+                                "smokebomb",
+                                "combatdodge",
+                                "stealthslide",
+                                "alarmclock"
+                            ],
+                            [
+                                "thiefreflexes",
+                                "feralpounce",
+                                "knockoutdive",
+                                "insanitystrike"
+                            ],
+                            [
+                                "voltageattack",
+                                "ragebomb",
+                                "musicbox",
+                                "lightningspin"
+                            ],
+                            [
+                                "paraglider",
+                                "silentobliteration",
+                                "shadowpower",
+                                "tom"
+                            ],
+                            ["megajump"]
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Bentley",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "h_alignment": "center",
+                        "item_margin": "3,2",
+                        "item_size": 75,
+                        "rows": [
+                            [
+                                "triggerbomb",
+                                "snoozebomb",
+                                "healthextractor",
+                                "reductionbomb"
+                            ],
+                            [
+                                "adrenalineburst",
+                                "hoverpack",
+                                "sizedestabilizer",
+                                "temporallock"
+                            ],
+                            ["longtoss"]
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Murray",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "h_alignment": "center",
+                        "item_margin": "3,2",
+                        "item_size": 75,
+                        "rows": [
+                            [
+                                "fistsofflame",
+                                "raginginfernoflop",
+                                "berserkercharge",
+                                "diablofireslam"
+                            ],
+                            [
+                                "turnbucklelaunch",
+                                "gutturalroar",
+                                "juggernautthrow",
+                                "atlasstrength"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "episode_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "3,2",
+        "item_size": 100,
+        "rows": [
+            [
+                "progressive_black_chateau",
+                "progressive_starry_eyed_encounter",
+                "progressive_predator_awakes"
+            ],
+            [
+                "progressive_jailbreak",
+                "progressive_tangled_web",
+                "progressive_he_who_tames_the_iron_horse"
+            ],
+            [
+                "progressive_menace_from_the_north",
+                "progressive_anatomy_for_disaster"
+            ]
+        ]
+    },
+    "clockwerk_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "3,2",
+        "item_size": 100,
+        "rows": [["", "clockwerkpart", ""]]
+    },
+    "settings": {
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "left",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Episode 8 Keys",
+                "margin": "0,0,4,0",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "stretch",
+                    "background": "#000000",
+                    "item_width": 218,
+                    "item_height": 83,
+                    "margin": "0,0,0,0",
+                    "item_margin": 0,
+                    "item_v_alignment": "top",
+                    "item_h_alignment": "center",
+                    "rows": [["episode8keysfirst"], ["episode8keysrequired"]]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Bottlesanity",
+                "margin": "4,0,0,0",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "stretch",
+                    "background": "#000000",
+                    "item_width": 218,
+                    "item_height": 83,
+                    "margin": "0,0,0,0",
+                    "item_margin": 0,
+                    "item_v_alignment": "top",
+                    "item_h_alignment": "center",
+                    "rows": [["bottlesanityoff"]]
+                }
+            }
+        ]
+    }
+}
