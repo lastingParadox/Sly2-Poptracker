@@ -80,7 +80,11 @@
                         "name": "Job Complete"
                     },
                     {
-                        "name": "A Starry Eyed Encounter Vault"
+                        "name": "A Starry Eyed Encounter Vault",
+                        "access_rules": [
+                            "$vault_check|starry_eyed_encounter|3",
+                            "{$has_item|progressive_starry_eyed_encounter|3}"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -163,6 +167,344 @@
                         "map": "A Starry Eyed Encounter",
                         "x": 193,
                         "y": 814
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "A Starry Eyed Encounter Bottles",
+        "parent": "A Starry Eyed Encounter",
+        "access_rules": ["@A Starry Eyed Encounter"],
+        "visibility_rules": ["bottlesanityon"],
+        "children": [
+            {
+                "name": "Clue Bottle 1",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 553,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 2",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 564,
+                        "y": 427
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 3",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 922,
+                        "y": 274
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 4",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 810,
+                        "y": 410
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 5",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 1081,
+                        "y": 186
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 6",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 943,
+                        "y": 109
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 7",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 840,
+                        "y": 117
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 8",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 569,
+                        "y": 341
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 9",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 555,
+                        "y": 471
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 10",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 694,
+                        "y": 688
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 11",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 553,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 12",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 816,
+                        "y": 612
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 13",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 420,
+                        "y": 950
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 14",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 208,
+                        "y": 903
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 15",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 513,
+                        "y": 724
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 16",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 842,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 17",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 300,
+                        "y": 850
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 18",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 413,
+                        "y": 671
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 19",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 173,
+                        "y": 627
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 20",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 318,
+                        "y": 690
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 21",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 921,
+                        "y": 825
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 22",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 933,
+                        "y": 839
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 23",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 870,
+                        "y": 735
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 24",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 1138,
+                        "y": 733
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 25",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 1106,
+                        "y": 852
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 26",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 1204,
+                        "y": 679
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 27",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 1117,
+                        "y": 490
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 28",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 982,
+                        "y": 382
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 29",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 644,
+                        "y": 433
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 30",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Starry Eyed Encounter",
+                        "x": 406,
+                        "y": 288
                     }
                 ]
             }

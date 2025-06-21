@@ -1,3 +1,5 @@
 Tracker:AddItems("items/power-ups.json")
 Tracker:AddItems("items/episodes.json")
 Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/bottle_items.json")
+Tracker:AddItems("items/events.json")

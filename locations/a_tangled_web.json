@@ -136,12 +136,354 @@
             },
             {
                 "name": "A Tangled Web Vault",
+                "access_rules": [
+                    "$vault_check|tangled_web|3",
+                    "{$has_item|progressive_tangled_web|3}"
+                ],
                 "sections": [{ "name": "A Tangled Web Vault" }],
                 "map_locations": [
                     {
                         "map": "A Tangled Web",
                         "x": 373,
                         "y": 407
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "A Tangled Web Bottles",
+        "parent": "A Tangled Web",
+        "access_rules": ["@A Tangled Web"],
+        "visibility_rules": ["bottlesanityon"],
+        "children": [
+            {
+                "name": "Clue Bottle 1",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 834,
+                        "y": 361
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 2",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 663,
+                        "y": 904
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 3",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 477,
+                        "y": 788
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 4",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 798,
+                        "y": 1097
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 5",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 1123,
+                        "y": 668
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 6",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 1166,
+                        "y": 396
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 7",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 954,
+                        "y": 851
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 8",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 919,
+                        "y": 704
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 9",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 696,
+                        "y": 1001
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 10",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 1092,
+                        "y": 1034
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 11",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 449,
+                        "y": 937
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 12",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 81,
+                        "y": 771
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 13",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 266,
+                        "y": 467
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 14",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 230,
+                        "y": 427
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 15",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 424,
+                        "y": 188
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 16",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 373,
+                        "y": 218
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 17",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 275,
+                        "y": 401
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 18",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 502,
+                        "y": 575
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 19",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 422,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 20",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 437,
+                        "y": 324
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 21",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 453,
+                        "y": 317
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 22",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 670,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 23",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 442,
+                        "y": 607
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 24",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 279,
+                        "y": 555
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 25",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 274,
+                        "y": 541
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 26",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 219,
+                        "y": 696
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 27",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 285,
+                        "y": 779
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 28",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 542,
+                        "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 29",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 350,
+                        "y": 704
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 30",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "A Tangled Web",
+                        "x": 680,
+                        "y": 689
                     }
                 ]
             }

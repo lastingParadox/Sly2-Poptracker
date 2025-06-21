@@ -143,12 +143,351 @@
             },
             {
                 "name": "Jailbreak Vault",
+                "access_rules": ["$vault_check|jailbreak|1", "{}"],
                 "sections": [{ "name": "Jailbreak Vault" }],
                 "map_locations": [
                     {
                         "map": "Jailbreak",
                         "x": 1005,
                         "y": 284
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jailbreak Bottles",
+        "parent": "Jailbreak",
+        "access_rules": ["@Jailbreak"],
+        "visibility_rules": ["bottlesanityon"],
+        "children": [
+            {
+                "name": "Clue Bottle 1",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 994,
+                        "y": 929
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 2",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 819,
+                        "y": 368
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 3",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 389,
+                        "y": 178
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 4",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 422,
+                        "y": 862
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 5",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 520,
+                        "y": 271
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 6",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 628,
+                        "y": 173
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 7",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 293,
+                        "y": 226
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 8",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 847,
+                        "y": 448
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 9",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 274,
+                        "y": 598
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 10",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 671,
+                        "y": 644
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 11",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 916,
+                        "y": 423
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 12",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 843,
+                        "y": 64
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 13",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 541,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 14",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 660,
+                        "y": 900
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 15",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 1011,
+                        "y": 796
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 16",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 797,
+                        "y": 737
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 17",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 701,
+                        "y": 503
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 18",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 877,
+                        "y": 207
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 19",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 625,
+                        "y": 435
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 20",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 745,
+                        "y": 841
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 21",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 793,
+                        "y": 567
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 22",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 1019,
+                        "y": 220
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 23",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 929,
+                        "y": 214
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 24",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 653,
+                        "y": 59
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 25",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 786,
+                        "y": 173
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 26",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 803,
+                        "y": 430
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 27",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 317,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 28",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 229,
+                        "y": 326
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 29",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 607,
+                        "y": 702
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 30",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Jailbreak",
+                        "x": 1018,
+                        "y": 439
                     }
                 ]
             }

@@ -162,12 +162,355 @@
             },
             {
                 "name": "Menace from the North, eh! Vault",
+                "access_rules": [
+                    "$vault_check|menace_from_the_north|2",
+                    "{$has_item|progressive_menace_from_the_north|2}"
+                ],
                 "sections": [{ "name": "Menace from the North, eh! Vault" }],
                 "map_locations": [
                     {
                         "map": "Menace from the North, eh!",
                         "x": 772,
                         "y": 260
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Menace from the North, eh! Bottles",
+        "parent": "Menace from the North, eh!",
+        "access_rules": [["@Menace from the North, eh!"]],
+        "visibility_rules": ["bottlesanityon"],
+        "children": [
+            {
+                "name": "Clue Bottle 1",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 320,
+                        "y": 672
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 2",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 606,
+                        "y": 680
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 3",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 605,
+                        "y": 269
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 4",
+                "access_rules": ["paraglider", "megajump"],
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 794,
+                        "y": 98
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 5",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 992,
+                        "y": 138
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 6",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 1048,
+                        "y": 620
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 7",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 737,
+                        "y": 590
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 8",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 144,
+                        "y": 310
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 9",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 40,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 10",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 470,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 11",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 480,
+                        "y": 678
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 12",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 922,
+                        "y": 477
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 13",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 693,
+                        "y": 338
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 14",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 974,
+                        "y": 464
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 15",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 912,
+                        "y": 281
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 16",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 1022,
+                        "y": 355
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 17",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 697,
+                        "y": 489
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 18",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 633,
+                        "y": 129
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 19",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 802,
+                        "y": 523
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 20",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 818,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 21",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 434,
+                        "y": 205
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 22",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 343,
+                        "y": 500
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 23",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 741,
+                        "y": 715
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 24",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 1019,
+                        "y": 699
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 25",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 913,
+                        "y": 794
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 26",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 444,
+                        "y": 389
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 27",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 433,
+                        "y": 764
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 28",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 828,
+                        "y": 676
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 29",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 799,
+                        "y": 439
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 30",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Menace from the North, eh!",
+                        "x": 1057,
+                        "y": 212
                     }
                 ]
             }

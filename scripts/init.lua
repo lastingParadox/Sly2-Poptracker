@@ -12,6 +12,6 @@ Tracker:AddLayouts("layouts/tracker.json")
 ScriptHost:LoadScript("scripts/locations_import.lua")
 
 -- AutoTracking for Poptracker
--- if PopVersion and PopVersion >= "0.18.0" then
---     ScriptHost:LoadScript("scripts/autotracking.lua")
--- end
+if PopVersion and PopVersion >= "0.18.0" then
+    ScriptHost:LoadScript("scripts/autotracking.lua")
+end

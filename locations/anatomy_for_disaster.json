@@ -115,12 +115,355 @@
             },
             {
                 "name": "Anatomy for Disaster Vault",
+                "access_rules": [
+                    "$vault_check|anatomy_for_disaster|2",
+                    "{$anatomy_for_disaster_check|2}"
+                ],
                 "sections": [{ "name": "Anatomy for Disaster Vault" }],
                 "map_locations": [
                     {
                         "map": "Anatomy for Disaster",
                         "x": 584,
                         "y": 203
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Anatomy for Disaster Bottles",
+        "parent": "Anatomy for Disaster",
+        "access_rules": ["@Anatomy for Disaster"],
+        "visibility_rules": ["bottlesanityon"],
+        "children": [
+            {
+                "name": "Clue Bottle 1",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 237,
+                        "y": 286
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 2",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 129,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 3",
+                "access_rules": ["feralpounce", "megajump"],
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 872,
+                        "y": 470
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 4",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 1099,
+                        "y": 476
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 5",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 1184,
+                        "y": 453
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 6",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 1184,
+                        "y": 585
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 7",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 1051,
+                        "y": 246
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 8",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 1004,
+                        "y": 181
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 9",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 898,
+                        "y": 322
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 10",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 968,
+                        "y": 590
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 11",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 974,
+                        "y": 644
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 12",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 664,
+                        "y": 492
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 13",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 482,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 14",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 687,
+                        "y": 731
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 15",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 154,
+                        "y": 714
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 16",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 208,
+                        "y": 583
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 17",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 330,
+                        "y": 226
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 18",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 328,
+                        "y": 667
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 19",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 482,
+                        "y": 516
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 20",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 550,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 21",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 383,
+                        "y": 493
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 22",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 697,
+                        "y": 550
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 23",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 588,
+                        "y": 502
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 24",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 770,
+                        "y": 598
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 25",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 777,
+                        "y": 354
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 26",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 626,
+                        "y": 382
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 27",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 515,
+                        "y": 408
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 28",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 693,
+                        "y": 209
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 29",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 529,
+                        "y": 204
+                    }
+                ]
+            },
+            {
+                "name": "Clue Bottle 30",
+                "sections": [{ "name": "Bottle Collected" }],
+                "map_locations": [
+                    {
+                        "map": "Anatomy for Disaster",
+                        "x": 603,
+                        "y": 839
                     }
                 ]
             }

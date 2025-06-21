@@ -3,6 +3,13 @@
         "type": "tabbed",
         "tabs": [
             {
+                "title": "ThiefNet",
+                "content": {
+                    "type": "map",
+                    "maps": ["ThiefNet"]
+                }
+            },
+            {
                 "title": "The Black Chateau",
                 "content": {
                     "type": "map",

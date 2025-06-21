@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Satellite Sabotage Complete",
+        "type": "toggle",
+        "img": "images/icons/open.png",
+        "disabled_img": "images/icons/closed.png",
+        "disabled_img_mods": "images/icons/closed.png",
+        "codes": "satellite_sabotage_complete"
+    },
+    {
+        "name": "Cabin Crimes Complete",
+        "type": "toggle",
+        "img": "images/icons/open.png",
+        "disabled_img": "images/icons/closed.png",
+        "disabled_img_mods": "images/icons/closed.png",
+        "codes": "cabin_crimes_complete"
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "name": "ThiefNet",
+        "children": [
+            {
+                "name": "Power-Ups 1-4",
+                "sections": [
+                    { "name": "Power-Up 1" },
+                    { "name": "Power-Up 2" },
+                    { "name": "Power-Up 3" },
+                    { "name": "Power-Up 4" }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ThiefNet",
+                        "x": 383,
+                        "y": 237
+                    }
+                ]
+            },
+            {
+                "name": "Power-Ups 5-8",
+                "sections": [
+                    { "name": "Power-Up 5" },
+                    { "name": "Power-Up 6" },
+                    { "name": "Power-Up 7" },
+                    { "name": "Power-Up 8" }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ThiefNet",
+                        "x": 383,
+                        "y": 318
+                    }
+                ]
+            },
+            {
+                "name": "Power-Ups 9-12",
+                "sections": [
+                    { "name": "Power-Up 9" },
+                    { "name": "Power-Up 10" },
+                    { "name": "Power-Up 11" },
+                    { "name": "Power-Up 12" }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ThiefNet",
+                        "x": 383,
+                        "y": 400
+                    }
+                ]
+            },
+            {
+                "name": "Power-Ups 13-16",
+                "sections": [
+                    { "name": "Power-Up 13" },
+                    { "name": "Power-Up 14" },
+                    { "name": "Power-Up 15" },
+                    { "name": "Power-Up 16" }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ThiefNet",
+                        "x": 383,
+                        "y": 483
+                    }
+                ]
+            },
+            {
+                "name": "Power-Ups 17-20",
+                "sections": [
+                    { "name": "Power-Up 17" },
+                    { "name": "Power-Up 18" },
+                    { "name": "Power-Up 19" },
+                    { "name": "Power-Up 20" }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ThiefNet",
+                        "x": 383,
+                        "y": 565
+                    }
+                ]
+            },
+            {
+                "name": "Power-Ups 21-24",
+                "sections": [
+                    { "name": "Power-Up 21" },
+                    { "name": "Power-Up 22" },
+                    { "name": "Power-Up 23" },
+                    { "name": "Power-Up 24" }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ThiefNet",
+                        "x": 383,
+                        "y": 647
+                    }
+                ]
+            }
+        ]
+    }
+]

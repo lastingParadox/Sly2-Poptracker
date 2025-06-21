@@ -1,11 +1,35 @@
 function has_item(item, amount)
-	local count = Tracker:ProviderCountForCode(item)
-	amount = tonumber(amount)
-	if not amount then
-		return count > 0
-	else
-		return count >= amount
-	end
+    local count = Tracker:ProviderCountForCode(item)
+    amount = tonumber(amount)
+    if not amount then
+        return count > 0
+    else
+        return count >= amount
+    end
+end
+
+function vault_check(episode, amount)
+    local has_episode = episode == "anatomy_for_disaster" and anatomy_for_disaster_check(amount) or
+        has_item("progressive_" .. episode, amount)
+    local bottlesanity = has_item("bottlesanityon")
+
+    if not has_episode then return false end
+    if not bottlesanity then return true end
+
+    local bundle_size = Tracker:ProviderCountForCode("bottle_bundle_size")
+    if bundle_size == 0 then return has_episode end
+
+    local bundle_code = (bundle_size == 1 and "bottle_" or bundle_size .. "_bottles_") .. episode
+    local required_bundle_amount = 30 // bundle_size
+    local remainder = 30 % bundle_size
+
+    local has_bundles = has_item(bundle_code, required_bundle_amount)
+    if remainder ~= 0 then
+        local remainder_code = (remainder == 1 and "bottle_" or bundle_size .. "_bottles_") .. episode
+        return has_bundles and has_item(remainder_code)
+    end
+
+    return has_bundles
 end
 
 function anatomy_for_disaster_check(amount)

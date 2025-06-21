@@ -159,7 +159,7 @@
                     "item_margin": 0,
                     "item_v_alignment": "top",
                     "item_h_alignment": "center",
-                    "rows": [["bottlesanityoff"]]
+                    "rows": [["bottlesanityoff"], ["bottle_bundle_size"]]
                 }
             }
         ]

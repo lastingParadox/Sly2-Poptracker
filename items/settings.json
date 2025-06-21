@@ -8,22 +8,22 @@
             {
                 "img": "images/system/episode_8_keys_0.png",
                 "inherit_codes": "false",
-                "codes": "episode8keysfirst"
+                "codes": "episode_8_keys,episode8keysfirst"
             },
             {
                 "img": "images/system/episode_8_keys_1.png",
                 "inherit_codes": "false",
-                "codes": "episode8keyslast"
+                "codes": "episode_8_keys,episode8keyslast"
             },
             {
                 "img": "images/system/episode_8_keys_2.png",
                 "inherit_codes": "false",
-                "codes": "episode8keysepisode"
+                "codes": "episode_8_keys,episode8keysepisode"
             },
             {
                 "img": "images/system/episode_8_keys_3.png",
                 "inherit_codes": "false",
-                "codes": "episode8keysoff"
+                "codes": "episode_8_keys,episode8keysoff"
             }
         ]
     },
@@ -50,13 +50,27 @@
             {
                 "img": "images/system/bottlesanity_off.png",
                 "inherit_codes": "false",
-                "codes": "bottlesanityoff"
+                "codes": "bottlesanity,bottlesanityoff"
             },
             {
                 "img": "images/system/bottlesanity_on.png",
                 "inherit_codes": "false",
-                "codes": "bottlesanityon"
+                "codes": "bottlesanity,bottlesanityon"
             }
         ]
+    },
+    {
+        "name": "Bottle Bundle Size",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 30,
+        "increment": 1,
+        "decrement": 1,
+        "overlay_font_size": 30,
+        "overlay_align": "center",
+        "img": "images/system/bottle_bundle_size.png",
+        "img_mods": "",
+        "codes": "bottle_bundle_size"
     }
 ]
