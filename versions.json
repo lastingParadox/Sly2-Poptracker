@@ -1,0 +1,10 @@
+{
+    "versions": [
+        {
+            "package_version": "0.1.0",
+            "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.0/Sly2-Poptracker_0.1.0.zip",
+            "sha256": "7c650b70f71135dcd39e7c2bb55e3547a200d9bd1a30ffad192b6fb458126485",
+            "changelog": ["Initial Release"]
+        }
+    ]
+}
