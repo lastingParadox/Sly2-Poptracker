@@ -132,7 +132,6 @@
     },
     {
         "name": "Anatomy for Disaster Bottles",
-        "parent": "Anatomy for Disaster",
         "access_rules": ["@Anatomy for Disaster"],
         "visibility_rules": ["bottlesanityon"],
         "children": [

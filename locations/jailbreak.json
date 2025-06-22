@@ -157,7 +157,6 @@
     },
     {
         "name": "Jailbreak Bottles",
-        "parent": "Jailbreak",
         "access_rules": ["@Jailbreak"],
         "visibility_rules": ["bottlesanityon"],
         "children": [
@@ -189,8 +188,8 @@
                 "map_locations": [
                     {
                         "map": "Jailbreak",
-                        "x": 389,
-                        "y": 178
+                        "x": 382,
+                        "y": 201
                     }
                 ]
             },
@@ -244,7 +243,7 @@
                 "map_locations": [
                     {
                         "map": "Jailbreak",
-                        "x": 847,
+                        "x": 487,
                         "y": 448
                     }
                 ]
@@ -266,8 +265,8 @@
                 "map_locations": [
                     {
                         "map": "Jailbreak",
-                        "x": 671,
-                        "y": 644
+                        "x": 855,
+                        "y": 565
                     }
                 ]
             },
@@ -277,8 +276,8 @@
                 "map_locations": [
                     {
                         "map": "Jailbreak",
-                        "x": 916,
-                        "y": 423
+                        "x": 919,
+                        "y": 412
                     }
                 ]
             },
@@ -333,7 +332,7 @@
                     {
                         "map": "Jailbreak",
                         "x": 797,
-                        "y": 737
+                        "y": 687
                     }
                 ]
             },
@@ -387,7 +386,7 @@
                 "map_locations": [
                     {
                         "map": "Jailbreak",
-                        "x": 793,
+                        "x": 973,
                         "y": 567
                     }
                 ]
@@ -465,7 +464,7 @@
                     {
                         "map": "Jailbreak",
                         "x": 229,
-                        "y": 326
+                        "y": 304
                     }
                 ]
             },
@@ -475,8 +474,8 @@
                 "map_locations": [
                     {
                         "map": "Jailbreak",
-                        "x": 607,
-                        "y": 702
+                        "x": 606,
+                        "y": 689
                     }
                 ]
             },

@@ -162,7 +162,6 @@
     },
     {
         "name": "The Predator Awakes Bottles",
-        "parent": "The Predator Awakes",
         "access_rules": ["@The Predator Awakes"],
         "visibility_rules": ["bottlesanityon"],
         "children": [

@@ -2,6 +2,8 @@ ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/event_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/ap_utils.lua")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -155,8 +157,16 @@ function onItem(index, item_id, item_name, player_number)
 
     local value = {}
 
+    -- All clockwerk parts are the same in the Poptracker
     if item_id >= 123035 and item_id <= 123055 then
         value = ITEM_MAPPING[123035]
+        -- All bottles are condensed into one and add x bottle_amount to the consumable item
+    elseif item_id >= 123056 and item_id <= 123295 then
+        local code = handle_bottle_item(item_id)
+        if code then
+            table.insert(OBTAINED_ITEMS, code)
+            return
+        end
     else
         value = ITEM_MAPPING[item_id]
     end
@@ -169,6 +179,7 @@ function onItem(index, item_id, item_name, player_number)
         end
         return
     end
+
     local object = Tracker:FindObjectForCode(value[1])
     if object then
         if object.Type == "toggle" then
@@ -198,6 +209,13 @@ function onLocation(location_id, location_name)
         if location_obj then
             if location:sub(1, 1) == "@" then
                 location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
+
+                -- Activate event items based on location check
+                local complete_obj = EVENT_MAPPING[location_id]
+                if complete_obj then
+                    complete_obj = Tracker:FindObjectForCode(complete_obj)
+                    if complete_obj then complete_obj.Active = true end
+                end
             else
                 location_obj.Active = true
             end

@@ -7,8 +7,8 @@
                 "name": "Satellite Sabotage",
                 "sections": [
                     {
-                        "name": "Job Complete",
-                        "hosted_item": "satellite_sabotage_complete"
+                        "hosted_item": "satellite_sabotage_complete",
+                        "name": "Job Complete"
                     }
                 ],
                 "map_locations": [
@@ -182,7 +182,6 @@
     },
     {
         "name": "The Black Chateau Bottles",
-        "parent": "The Black Chateau",
         "access_rules": ["@The Black Chateau"],
         "visibility_rules": ["bottlesanityon"],
         "children": [

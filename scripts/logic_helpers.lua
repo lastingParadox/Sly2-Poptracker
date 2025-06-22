@@ -16,20 +16,7 @@ function vault_check(episode, amount)
     if not has_episode then return false end
     if not bottlesanity then return true end
 
-    local bundle_size = Tracker:ProviderCountForCode("bottle_bundle_size")
-    if bundle_size == 0 then return has_episode end
-
-    local bundle_code = (bundle_size == 1 and "bottle_" or bundle_size .. "_bottles_") .. episode
-    local required_bundle_amount = 30 // bundle_size
-    local remainder = 30 % bundle_size
-
-    local has_bundles = has_item(bundle_code, required_bundle_amount)
-    if remainder ~= 0 then
-        local remainder_code = (remainder == 1 and "bottle_" or bundle_size .. "_bottles_") .. episode
-        return has_bundles and has_item(remainder_code)
-    end
-
-    return has_bundles
+    return has_item("bottle_" .. episode, 30)
 end
 
 function anatomy_for_disaster_check(amount)

@@ -12,30 +12,37 @@
                         "dock": "left",
                         "content": [
                             {
-                                "type": "group",
-                                "header": "Episodes",
+                                "type": "dock",
                                 "dock": "top",
-                                "content": {
-                                    "type": "layout",
-                                    "key": "episode_grid"
-                                }
-                            },
-                            {
-                                "type": "group",
-                                "header": "Power-Ups",
-                                "dock": "top",
-                                "content": {
-                                    "type": "layout",
-                                    "key": "powerup_grid"
-                                }
-                            },
-                            {
-                                "type": "group",
-                                "header": "Clockwerk Parts",
-                                "content": {
-                                    "type": "layout",
-                                    "key": "clockwerk_grid"
-                                }
+                                "v_alignment": "stretch",
+                                "content": [
+                                    {
+                                        "type": "group",
+                                        "header": "Episodes",
+                                        "dock": "top",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "episode_grid"
+                                        }
+                                    },
+                                    {
+                                        "type": "group",
+                                        "header": "Power-Ups",
+                                        "dock": "top",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "powerup_grid"
+                                        }
+                                    },
+                                    {
+                                        "type": "group",
+                                        "header": "Collectibles",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "collectible_grid"
+                                        }
+                                    }
+                                ]
                             }
                         ]
                     },

@@ -174,7 +174,6 @@
     },
     {
         "name": "A Starry Eyed Encounter Bottles",
-        "parent": "A Starry Eyed Encounter",
         "access_rules": ["@A Starry Eyed Encounter"],
         "visibility_rules": ["bottlesanityon"],
         "children": [
@@ -294,8 +293,8 @@
                 "map_locations": [
                     {
                         "map": "A Starry Eyed Encounter",
-                        "x": 553,
-                        "y": 360
+                        "x": 816,
+                        "y": 612
                     }
                 ]
             },
@@ -305,8 +304,8 @@
                 "map_locations": [
                     {
                         "map": "A Starry Eyed Encounter",
-                        "x": 816,
-                        "y": 612
+                        "x": 204,
+                        "y": 773
                     }
                 ]
             },

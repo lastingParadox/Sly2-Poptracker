@@ -6,36 +6,42 @@
                 "title": "Sly",
                 "content": [
                     {
-                        "type": "itemgrid",
-                        "h_alignment": "center",
-                        "item_margin": "3,2",
-                        "item_size": 75,
-                        "rows": [
-                            [
-                                "smokebomb",
-                                "combatdodge",
-                                "stealthslide",
-                                "alarmclock"
-                            ],
-                            [
-                                "thiefreflexes",
-                                "feralpounce",
-                                "knockoutdive",
-                                "insanitystrike"
-                            ],
-                            [
-                                "voltageattack",
-                                "ragebomb",
-                                "musicbox",
-                                "lightningspin"
-                            ],
-                            [
-                                "paraglider",
-                                "silentobliteration",
-                                "shadowpower",
-                                "tom"
-                            ],
-                            ["megajump"]
+                        "type": "array",
+                        "orientation": "vertical",
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "h_alignment": "center",
+                                "item_margin": "1,5",
+                                "item_size": 60,
+                                "rows": [
+                                    [
+                                        "smokebomb",
+                                        "combatdodge",
+                                        "stealthslide",
+                                        "alarmclock"
+                                    ],
+                                    [
+                                        "thiefreflexes",
+                                        "feralpounce",
+                                        "knockoutdive",
+                                        "insanitystrike"
+                                    ],
+                                    [
+                                        "voltageattack",
+                                        "ragebomb",
+                                        "musicbox",
+                                        "lightningspin"
+                                    ],
+                                    [
+                                        "paraglider",
+                                        "silentobliteration",
+                                        "shadowpower",
+                                        "tom"
+                                    ],
+                                    ["megajump"]
+                                ]
+                            }
                         ]
                     }
                 ]
@@ -44,24 +50,30 @@
                 "title": "Bentley",
                 "content": [
                     {
-                        "type": "itemgrid",
-                        "h_alignment": "center",
-                        "item_margin": "3,2",
-                        "item_size": 75,
-                        "rows": [
-                            [
-                                "triggerbomb",
-                                "snoozebomb",
-                                "healthextractor",
-                                "reductionbomb"
-                            ],
-                            [
-                                "adrenalineburst",
-                                "hoverpack",
-                                "sizedestabilizer",
-                                "temporallock"
-                            ],
-                            ["longtoss"]
+                        "type": "array",
+                        "orientation": "vertical",
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "h_alignment": "center",
+                                "item_margin": "1,5",
+                                "item_size": 60,
+                                "rows": [
+                                    [
+                                        "triggerbomb",
+                                        "snoozebomb",
+                                        "healthextractor",
+                                        "reductionbomb"
+                                    ],
+                                    [
+                                        "adrenalineburst",
+                                        "hoverpack",
+                                        "sizedestabilizer",
+                                        "temporallock"
+                                    ],
+                                    ["longtoss"]
+                                ]
+                            }
                         ]
                     }
                 ]
@@ -70,23 +82,29 @@
                 "title": "Murray",
                 "content": [
                     {
-                        "type": "itemgrid",
-                        "h_alignment": "center",
-                        "item_margin": "3,2",
-                        "item_size": 75,
-                        "rows": [
-                            [
-                                "fistsofflame",
-                                "raginginfernoflop",
-                                "berserkercharge",
-                                "diablofireslam"
-                            ],
-                            [
-                                "turnbucklelaunch",
-                                "gutturalroar",
-                                "juggernautthrow",
-                                "atlasstrength"
-                            ]
+                        "type": "array",
+                        "orientation": "vertical",
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "h_alignment": "center",
+                                "item_margin": "1,5",
+                                "item_size": 60,
+                                "rows": [
+                                    [
+                                        "fistsofflame",
+                                        "raginginfernoflop",
+                                        "berserkercharge",
+                                        "diablofireslam"
+                                    ],
+                                    [
+                                        "turnbucklelaunch",
+                                        "gutturalroar",
+                                        "juggernautthrow",
+                                        "atlasstrength"
+                                    ]
+                                ]
+                            }
                         ]
                     }
                 ]
@@ -94,33 +112,66 @@
         ]
     },
     "episode_grid": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "3,2",
-        "item_size": 100,
-        "rows": [
-            [
-                "progressive_black_chateau",
-                "progressive_starry_eyed_encounter",
-                "progressive_predator_awakes"
-            ],
-            [
-                "progressive_jailbreak",
-                "progressive_tangled_web",
-                "progressive_he_who_tames_the_iron_horse"
-            ],
-            [
-                "progressive_menace_from_the_north",
-                "progressive_anatomy_for_disaster"
-            ]
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "1,5",
+                "item_size": 80,
+                "rows": [
+                    [
+                        "progressive_black_chateau",
+                        "progressive_starry_eyed_encounter",
+                        "progressive_predator_awakes"
+                    ],
+                    [
+                        "progressive_jailbreak",
+                        "progressive_tangled_web",
+                        "progressive_he_who_tames_the_iron_horse"
+                    ],
+                    [
+                        "progressive_menace_from_the_north",
+                        "progressive_anatomy_for_disaster"
+                    ]
+                ]
+            }
         ]
     },
-    "clockwerk_grid": {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "3,2",
-        "item_size": 100,
-        "rows": [["", "clockwerkpart", ""]]
+    "collectible_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "1,5",
+                "item_size": 60,
+                "rows": [
+                    [
+                        "bottle_black_chateau",
+                        "bottle_starry_eyed_encounter",
+                        "bottle_predator_awakes",
+                        "bottle_jailbreak"
+                    ],
+                    [
+                        "bottle_tangled_web",
+                        "bottle_he_who_tames_the_iron_horse",
+                        "bottle_menace_from_the_north",
+                        "bottle_anatomy_for_disaster"
+                    ]
+                ]
+            },
+            {
+                "type": "item",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "item_margin": "1,5",
+                "max_height": 100,
+                "item": "clockwerkpart"
+            }
+        ]
     },
     "settings": {
         "type": "array",

@@ -7,8 +7,7 @@
                 "name": "Cabin Crimes",
                 "sections": [
                     {
-                        "name": "Job Complete",
-                        "hosted_item": "cabin_crimes_complete"
+                        "name": "Job Complete"
                     }
                 ],
                 "map_locations": [
@@ -169,7 +168,6 @@
     },
     {
         "name": "He Who Tames the Iron Horse Bottles",
-        "parent": "He Who Tames the Iron Horse",
         "access_rules": ["@He Who Tames the Iron Horse"],
         "visibility_rules": ["bottlesanityon"],
         "children": [
@@ -267,8 +265,8 @@
                 "map_locations": [
                     {
                         "map": "He Who Tames the Iron Horse",
-                        "x": 957,
-                        "y": 689
+                        "x": 598,
+                        "y": 678
                     }
                 ]
             },
@@ -333,8 +331,8 @@
                 "map_locations": [
                     {
                         "map": "He Who Tames the Iron Horse",
-                        "x": 472,
-                        "y": 323
+                        "x": 475,
+                        "y": 330
                     }
                 ]
             },
@@ -344,8 +342,8 @@
                 "map_locations": [
                     {
                         "map": "He Who Tames the Iron Horse",
-                        "x": 286,
-                        "y": 443
+                        "x": 258,
+                        "y": 448
                     }
                 ]
             },
@@ -366,8 +364,8 @@
                 "map_locations": [
                     {
                         "map": "He Who Tames the Iron Horse",
-                        "x": 502,
-                        "y": 575
+                        "x": 425,
+                        "y": 824
                     }
                 ]
             },
@@ -377,8 +375,8 @@
                 "map_locations": [
                     {
                         "map": "He Who Tames the Iron Horse",
-                        "x": 425,
-                        "y": 824
+                        "x": 554,
+                        "y": 475
                     }
                 ]
             },
@@ -444,7 +442,7 @@
                     {
                         "map": "He Who Tames the Iron Horse",
                         "x": 823,
-                        "y": 305
+                        "y": 208
                     }
                 ]
             },

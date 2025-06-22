@@ -179,7 +179,6 @@
     },
     {
         "name": "Menace from the North, eh! Bottles",
-        "parent": "Menace from the North, eh!",
         "access_rules": [["@Menace from the North, eh!"]],
         "visibility_rules": ["bottlesanityon"],
         "children": [
