@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.1",
+            "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.1/Sly2-Poptracker_0.1.1.zip",
+            "sha256": "3f516ffb81566754091a520eee51726f9bb133bfd477ead9f38567a545a9cd36",
+            "changelog": [
+                "Bottle Positions fixes, fixes Satellite Sabotage and Cabin Crimes autotracker checking. Adds bottles to the UI and adjusts autotracker bottle acquisition."
+            ]
+        },
+        {
             "package_version": "0.1.0",
             "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.0/Sly2-Poptracker_0.1.0.zip",
             "sha256": "7c650b70f71135dcd39e7c2bb55e3547a200d9bd1a30ffad192b6fb458126485",
