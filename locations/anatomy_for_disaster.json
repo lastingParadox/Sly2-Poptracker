@@ -129,6 +129,8 @@
             },
             {
                 "name": "Golden Headdress Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Golden Headdress Treasure" }],
                 "map_locations": [
                     {
@@ -140,6 +142,8 @@
             },
             {
                 "name": "Jeweled Egg Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Jeweled Egg Treasure" }],
                 "map_locations": [
                     {
@@ -151,6 +155,8 @@
             },
             {
                 "name": "Golden Vase Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Golden Vase Treasure" }],
                 "map_locations": [
                     {
@@ -162,6 +168,8 @@
             },
             {
                 "name": "Anatomy for Disaster Vault",
+                "chest_opened_img": "images/icons/vault.png",
+                "chest_unopened_img": "images/icons/vault_uncollected.png",
                 "access_rules": [
                     "$vault_check|anatomy_for_disaster|2",
                     "{$anatomy_for_disaster_check|2}"
@@ -181,6 +189,8 @@
         "name": "Anatomy for Disaster Bottles",
         "access_rules": ["@Anatomy for Disaster"],
         "visibility_rules": ["bottlesanityon"],
+        "chest_opened_img": "images/icons/cluebottle.png",
+        "chest_unopened_img": "images/icons/cluebottle_uncollected.png",
         "children": [
             {
                 "name": "Clue Bottle 1",

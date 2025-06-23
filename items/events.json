@@ -2,553 +2,416 @@
     {
         "name": "Satellite Sabotage Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "satellite_sabotage_complete"
     },
     {
         "name": "Breaking and Entering Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "breaking_and_entering_complete"
     },
     {
         "name": "Bug Dimitri's Office Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "bug_dimitris_office_complete"
     },
     {
         "name": "Follow Dimitri Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "follow_dimitri_complete"
     },
     {
         "name": "Waterpump Destruction Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "waterpump_destruction_complete"
     },
     {
         "name": "Silence the Alarms Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "silence_the_alarms_complete"
     },
     {
         "name": "Theater Pickpocketing Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "theater_pickpocketing_complete"
     },
     {
         "name": "Moonlight Rendezvous Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "moonlight_rendezvous_complete"
     },
     {
         "name": "Disco Demolitions Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "disco_demolitions_complete"
     },
     {
         "name": "Operation: Thunder Beak Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "operation_thunder_beak_complete"
     },
     {
         "name": "Recon the Ballroom Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "recon_the_ballroom_complete"
     },
     {
         "name": "Lower the Drawbridge Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "lower_the_drawbridge_complete"
     },
     {
         "name": "Steal a Tuxedo Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
+
         "codes": "steal_a_tuxedo_complete"
     },
     {
         "name": "Dominate the Dance Floor Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "dominate_the_dance_floor_complete"
     },
     {
         "name": "Battle the Chopper Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "battle_the_chopper_complete"
     },
     {
         "name": "Boardroom Brawl Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "boardroom_brawl_complete"
     },
     {
         "name": "RC Bombing Run Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "rc_bombing_run_complete"
     },
     {
         "name": "Elephant Rampage Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "elephant_rampage_complete"
     },
     {
         "name": "Operation: Hippo Drop Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "operation_hippo_drop_complete"
     },
     {
         "name": "Spice Room Recon Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "spice_room_recon_complete"
     },
     {
         "name": "Water Bug Run Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "water_bug_run_complete"
     },
     {
         "name": "Freeing the Elephant Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "freeing_the_elephant_complete"
     },
     {
         "name": "Leading Rajan Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "leading_rajan_complete"
     },
     {
         "name": "Neyla's Secret Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "neylas_secret_complete"
     },
     {
         "name": "Spice Grinder Destruction Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "spice_grinder_destruction_complete"
     },
     {
         "name": "Blow the Dam Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "blow_the_dam_complete"
     },
     {
         "name": "Rip-Off the Ruby Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "rip_off_the_ruby_complete"
     },
     {
         "name": "Operation: Wet Tiger Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "operation_wet_tiger_complete"
     },
     {
         "name": "Eavesdrop on Contessa Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "eavesdrop_on_contessa_complete"
     },
     {
         "name": "Train Hack Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "train_hack_complete"
     },
     {
         "name": "Wall Bombing Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "wall_bombing_complete"
     },
     {
         "name": "Big House Brawl Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "big_house_brawl_complete"
     },
     {
         "name": "Lightning Action Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "lightning_action_complete"
     },
     {
         "name": "Disguise Bridge Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "disguise_bridge_complete"
     },
     {
         "name": "Code Capture Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "code_capture_complete"
     },
     {
         "name": "Close to Contessa Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "close_to_contessa_complete"
     },
     {
         "name": "Operation: Trojan Tank Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "operation_trojan_tank_complete"
     },
     {
         "name": "Know Your Enemy Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "know_your_enemy_complete"
     },
     {
         "name": "Ghost Capture Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "ghost_capture_complete"
     },
     {
         "name": "Mojo Trap Action Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "mojo_trap_action_complete"
     },
     {
         "name": "Kidnap the General Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "kidnap_the_general_complete"
     },
     {
         "name": "Stealing Voices Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "stealing_voices_complete"
     },
     {
         "name": "Tank Showdown Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "tank_showdown_complete"
     },
     {
         "name": "Crypt Hack Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "crypt_hack_complete"
     },
     {
         "name": "Operation: High Road Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "operation_high_road_complete"
     },
     {
         "name": "Cabin Crimes Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "cabin_crimes_complete"
     },
     {
         "name": "Spice in the Sky Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "spice_in_the_sky_complete"
     },
     {
         "name": "A Friend in Need Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "a_friend_in_need_complete"
     },
     {
         "name": "Ride the Iron Horse Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "ride_the_iron_horse_complete"
     },
     {
         "name": "Aerial Assault Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "aerial_assault_complete"
     },
     {
         "name": "Bear Cub Kidnapping Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "bear_cub_kidnapping_complete"
     },
     {
         "name": "Theft on the Rails Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "theft_on_the_rails_complete"
     },
     {
         "name": "Operation: Choo-Choo Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "operation_choo_choo_complete"
     },
     {
         "name": "Recon the Sawmill Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "recon_the_sawmill_complete"
     },
     {
         "name": "Bearcave Bugging Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "bearcave_bugging_complete"
     },
     {
         "name": "RC Combat Club Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "rc_combat_club_complete"
     },
     {
         "name": "Laser Redirection Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "laser_redirection_complete"
     },
     {
         "name": "Lighthouse Break-In Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "lighthouse_break_in_complete"
     },
     {
         "name": "Old Grizzle Face Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "old_grizzle_face_complete"
     },
     {
         "name": "Boat Hack Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "boat_hack_complete"
     },
     {
         "name": "Thermal Ride Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "thermal_ride_complete"
     },
     {
         "name": "Operation: Canada Games Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "operation_canada_games_complete"
     },
     {
         "name": "Blimp HQ Recon Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "blimp_hq_recon_complete"
     },
     {
         "name": "Charged TNT Run Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "charged_tnt_run_complete"
     },
     {
         "name": "Murray/Sly Tag Team Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/murraymission.png",
         "codes": "murray_sly_tag_team_complete"
     },
     {
         "name": "Sly/Bentley Conspire Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "sly_bentley_conspire_complete"
     },
     {
         "name": "Bentley/Murray Team Up Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/bentleymission.png",
         "codes": "bentley_murray_team_up_complete"
     },
     {
         "name": "Mega-Jump Job Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "mega_jump_job_complete"
     },
     {
         "name": "Carmelita's Gunner Complete",
         "type": "toggle",
-        "img": "images/icons/open.png",
-        "disabled_img": "images/icons/closed.png",
-        "disabled_img_mods": "images/icons/closed.png",
+        "img": "images/icons/slymission.png",
         "codes": "carmelitas_gunner_complete"
     }
 ]

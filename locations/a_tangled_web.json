@@ -161,6 +161,8 @@
             },
             {
                 "name": "Royal Tiara Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Royal Tiara Treasure" }],
                 "map_locations": [
                     {
@@ -172,6 +174,8 @@
             },
             {
                 "name": "Jeweled Crown Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Jeweled Crown Treasure" }],
                 "map_locations": [
                     {
@@ -183,6 +187,8 @@
             },
             {
                 "name": "Crystal Vase Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "access_rules": ["megajump", "paraglider"],
                 "sections": [{ "name": "Crystal Vase Treasure" }],
                 "map_locations": [
@@ -195,6 +201,8 @@
             },
             {
                 "name": "A Tangled Web Vault",
+                "chest_opened_img": "images/icons/vault.png",
+                "chest_unopened_img": "images/icons/vault_uncollected.png",
                 "access_rules": [
                     "$vault_check|tangled_web|3",
                     "{$has_item|progressive_tangled_web|3}"
@@ -214,6 +222,8 @@
         "name": "A Tangled Web Bottles",
         "access_rules": ["@A Tangled Web"],
         "visibility_rules": ["bottlesanityon"],
+        "chest_opened_img": "images/icons/cluebottle.png",
+        "chest_unopened_img": "images/icons/cluebottle_uncollected.png",
         "children": [
             {
                 "name": "Clue Bottle 1",

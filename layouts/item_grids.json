@@ -111,6 +111,113 @@
             }
         ]
     },
+    "powerup_grid_horiz": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Sly",
+                "content": [
+                    {
+                        "type": "dock",
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "dock": "bottom",
+                                "h_alignment": "center",
+                                "item_margin": "2,3",
+                                "item_size": 60,
+                                "rows": [
+                                    [
+                                        "smokebomb",
+                                        "combatdodge",
+                                        "stealthslide",
+                                        "alarmclock",
+                                        "thiefreflexes",
+                                        "feralpounce"
+                                    ],
+                                    [
+                                        "knockoutdive",
+                                        "insanitystrike",
+                                        "voltageattack",
+                                        "ragebomb",
+                                        "musicbox",
+                                        "lightningspin"
+                                    ],
+                                    [
+                                        "paraglider",
+                                        "silentobliteration",
+                                        "shadowpower",
+                                        "megajump",
+                                        "tom"
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Bentley",
+                "content": [
+                    {
+                        "type": "array",
+                        "orientation": "vertical",
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "h_alignment": "center",
+                                "item_margin": "2,3",
+                                "item_size": 60,
+                                "rows": [
+                                    [
+                                        "triggerbomb",
+                                        "snoozebomb",
+                                        "healthextractor",
+                                        "reductionbomb",
+                                        "adrenalineburst",
+                                        "hoverpack"
+                                    ],
+                                    [
+                                        "sizedestabilizer",
+                                        "temporallock",
+                                        "longtoss"
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Murray",
+                "content": [
+                    {
+                        "type": "array",
+                        "orientation": "vertical",
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "h_alignment": "center",
+                                "item_margin": "2,3",
+                                "item_size": 60,
+                                "rows": [
+                                    [
+                                        "fistsofflame",
+                                        "raginginfernoflop",
+                                        "berserkercharge",
+                                        "diablofireslam",
+                                        "turnbucklelaunch",
+                                        "gutturalroar"
+                                    ],
+                                    ["juggernautthrow", "atlasstrength"]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
     "episode_grid": {
         "type": "array",
         "orientation": "vertical",

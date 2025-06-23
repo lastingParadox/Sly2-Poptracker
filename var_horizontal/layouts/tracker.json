@@ -1,0 +1,76 @@
+{
+    "layouts": {
+        "tracker_default": {
+            "type": "container",
+            "background": "#00000000",
+            "content": {
+                "type": "dock",
+                "dropshadow": true,
+                "content": [
+                    {
+                        "type": "dock",
+                        "dock": "bottom",
+                        "content": [
+                            {
+                                "type": "dock",
+                                "dock": "bottom",
+                                "v_alignment": "stretch",
+                                "content": [
+                                    {
+                                        "type": "group",
+                                        "header": "Episodes",
+                                        "dock": "left",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "episode_grid"
+                                        }
+                                    },
+                                    {
+                                        "type": "group",
+                                        "header": "Power-Ups",
+                                        "dock": "left",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "powerup_grid_horiz"
+                                        }
+                                    },
+                                    {
+                                        "type": "group",
+                                        "header": "Collectibles",
+                                        "dock": "left",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "collectible_grid"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "v_alignment": "stretch",
+                        "margin": "0, 0",
+                        "content": [
+                            {
+                                "type": "layout",
+                                "key": "episode_tabs"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "settings_popup": {
+            "type": "container",
+            "background": "#000000",
+            "margin": "0, 0",
+            "content": [
+                {
+                    "type": "layout",
+                    "key": "settings"
+                }
+            ]
+        }
+    }
+}

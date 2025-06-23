@@ -112,6 +112,8 @@
                     },
                     {
                         "name": "A Starry Eyed Encounter Vault",
+                        "chest_opened_img": "images/icons/vault.png",
+                        "chest_unopened_img": "images/icons/vault_uncollected.png",
                         "access_rules": [
                             "$vault_check|starry_eyed_encounter|3",
                             "{$has_item|progressive_starry_eyed_encounter|3}"
@@ -188,6 +190,8 @@
             },
             {
                 "name": "Ancestral Kite Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Ancestral Kite Treasure" }],
                 "map_locations": [
                     {
@@ -199,6 +203,8 @@
             },
             {
                 "name": "Burial Urn Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Burial Urn Treasure" }],
                 "map_locations": [
                     {
@@ -210,6 +216,8 @@
             },
             {
                 "name": "Ming Vase Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Ming Vase Treasure" }],
                 "map_locations": [
                     {
@@ -225,6 +233,8 @@
         "name": "A Starry Eyed Encounter Bottles",
         "access_rules": ["@A Starry Eyed Encounter"],
         "visibility_rules": ["bottlesanityon"],
+        "chest_opened_img": "images/icons/cluebottle.png",
+        "chest_unopened_img": "images/icons/cluebottle_uncollected.png",
         "children": [
             {
                 "name": "Clue Bottle 1",

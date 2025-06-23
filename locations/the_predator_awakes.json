@@ -181,6 +181,8 @@
             },
             {
                 "name": "Golden Scroll Case Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Golden Scroll Case Treasure" }],
                 "map_locations": [
                     {
@@ -192,6 +194,8 @@
             },
             {
                 "name": "Gilded Scepter Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Gilded Scepter Treasure" }],
                 "map_locations": [
                     {
@@ -203,6 +207,8 @@
             },
             {
                 "name": "Crystal Flask Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Crystal Flask Treasure" }],
                 "map_locations": [
                     {
@@ -214,6 +220,8 @@
             },
             {
                 "name": "The Predator Awakes Vault",
+                "chest_opened_img": "images/icons/vault.png",
+                "chest_unopened_img": "images/icons/vault_uncollected.png",
                 "access_rules": [
                     "$vault_check|predator_awakes|2",
                     "{$has_item|progressive_predator_awakes|2}"
@@ -233,6 +241,8 @@
         "name": "The Predator Awakes Bottles",
         "access_rules": ["@The Predator Awakes"],
         "visibility_rules": ["bottlesanityon"],
+        "chest_opened_img": "images/icons/cluebottle.png",
+        "chest_unopened_img": "images/icons/cluebottle_uncollected.png",
         "children": [
             {
                 "name": "Clue Bottle 1",

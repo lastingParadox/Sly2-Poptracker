@@ -181,6 +181,8 @@
             },
             {
                 "name": "Jeweled Chalice Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "access_rules": ["paraglider"],
                 "sections": [{ "name": "Jeweled Chalice Treasure" }],
                 "map_locations": [
@@ -193,6 +195,8 @@
             },
             {
                 "name": "Jade Decanter Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Jade Decanter Treasure" }],
                 "map_locations": [
                     {
@@ -204,6 +208,8 @@
             },
             {
                 "name": "Collectible Plate Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Collectible Plate Treasure" }],
                 "map_locations": [
                     {
@@ -215,6 +221,8 @@
             },
             {
                 "name": "Menace from the North, eh! Vault",
+                "chest_opened_img": "images/icons/vault.png",
+                "chest_unopened_img": "images/icons/vault_uncollected.png",
                 "access_rules": [
                     "$vault_check|menace_from_the_north|2",
                     "{$has_item|progressive_menace_from_the_north|2}"
@@ -233,6 +241,8 @@
     {
         "name": "Menace from the North, eh! Bottles",
         "access_rules": [["@Menace from the North, eh!"]],
+        "chest_opened_img": "images/icons/cluebottle.png",
+        "chest_unopened_img": "images/icons/cluebottle_uncollected.png",
         "visibility_rules": ["bottlesanityon"],
         "children": [
             {

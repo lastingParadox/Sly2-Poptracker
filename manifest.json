@@ -1,12 +1,16 @@
 {
     "name": "Sly 2: Band of Thieves - Archipelago",
     "game_name": "Sly 2: Band of Thieves",
-    "package_version": "0.1.2",
+    "package_version": "0.1.3",
     "package_uid": "sly 2_ap",
     "author": "lastingParadox",
     "variants": {
-        "Map Tracker": {
-            "display_name": "Map Tracker",
+        "vertical": {
+            "display_name": "Map Tracker (Vertical)",
+            "flags": ["ap"]
+        },
+        "var_horizontal": {
+            "display_name": "Map Tracker (Horizontal)",
             "flags": ["ap"]
         }
     },

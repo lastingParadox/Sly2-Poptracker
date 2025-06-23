@@ -4,6 +4,8 @@
         "children": [
             {
                 "name": "Power-Ups 1-4",
+                "chest_opened_img": "images/icons/bentleymission.png",
+                "chest_unopened_img": "images/icons/bentleymission_uncollected.png",
                 "sections": [
                     { "name": "Power-Up 1" },
                     { "name": "Power-Up 2" },
@@ -20,6 +22,8 @@
             },
             {
                 "name": "Power-Ups 5-8",
+                "chest_opened_img": "images/icons/bentleymission.png",
+                "chest_unopened_img": "images/icons/bentleymission_uncollected.png",
                 "sections": [
                     { "name": "Power-Up 5" },
                     { "name": "Power-Up 6" },
@@ -36,6 +40,8 @@
             },
             {
                 "name": "Power-Ups 9-12",
+                "chest_opened_img": "images/icons/murraymission.png",
+                "chest_unopened_img": "images/icons/murraymission_uncollected.png",
                 "sections": [
                     { "name": "Power-Up 9" },
                     { "name": "Power-Up 10" },
@@ -52,6 +58,8 @@
             },
             {
                 "name": "Power-Ups 13-16",
+                "chest_opened_img": "images/icons/murraymission.png",
+                "chest_unopened_img": "images/icons/murraymission_uncollected.png",
                 "sections": [
                     { "name": "Power-Up 13" },
                     { "name": "Power-Up 14" },
@@ -68,6 +76,8 @@
             },
             {
                 "name": "Power-Ups 17-20",
+                "chest_opened_img": "images/icons/slymission.png",
+                "chest_unopened_img": "images/icons/slymission_uncollected.png",
                 "sections": [
                     { "name": "Power-Up 17" },
                     { "name": "Power-Up 18" },
@@ -84,6 +94,8 @@
             },
             {
                 "name": "Power-Ups 21-24",
+                "chest_opened_img": "images/icons/slymission.png",
+                "chest_unopened_img": "images/icons/slymission_uncollected.png",
                 "sections": [
                     { "name": "Power-Up 21" },
                     { "name": "Power-Up 22" },

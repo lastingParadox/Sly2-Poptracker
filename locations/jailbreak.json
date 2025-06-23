@@ -181,6 +181,8 @@
             },
             {
                 "name": "Golden Orb Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Golden Orb Treasure" }],
                 "map_locations": [
                     {
@@ -192,6 +194,8 @@
             },
             {
                 "name": "Ceremonial Lantern Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Ceremonial Lantern Treasure" }],
                 "map_locations": [
                     {
@@ -203,6 +207,8 @@
             },
             {
                 "name": "Crystal Ball Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "sections": [{ "name": "Crystal Ball Treasure" }],
                 "map_locations": [
                     {
@@ -214,6 +220,8 @@
             },
             {
                 "name": "Jailbreak Vault",
+                "chest_opened_img": "images/icons/vault.png",
+                "chest_unopened_img": "images/icons/vault_uncollected.png",
                 "access_rules": ["$vault_check|jailbreak|1", "{}"],
                 "sections": [{ "name": "Jailbreak Vault" }],
                 "map_locations": [
@@ -230,6 +238,8 @@
         "name": "Jailbreak Bottles",
         "access_rules": ["@Jailbreak"],
         "visibility_rules": ["bottlesanityon"],
+        "chest_opened_img": "images/icons/cluebottle.png",
+        "chest_unopened_img": "images/icons/cluebottle_uncollected.png",
         "children": [
             {
                 "name": "Clue Bottle 1",

@@ -198,6 +198,8 @@
             },
             {
                 "name": "Jade Vase Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "access_rules": ["$has_item|progressive_black_chateau|2"],
                 "sections": [{ "name": "Jade Vase Treasure" }],
                 "map_locations": [
@@ -210,6 +212,8 @@
             },
             {
                 "name": "Crystal Chalice Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "access_rules": ["$has_item|progressive_black_chateau|2"],
                 "sections": [{ "name": "Crystal Chalice Treasure" }],
                 "map_locations": [
@@ -222,6 +226,8 @@
             },
             {
                 "name": "Ivory Jewel Box Treasure",
+                "chest_opened_img": "images/icons/treasure.png",
+                "chest_unopened_img": "images/icons/treasure_uncollected.png",
                 "access_rules": ["$has_item|progressive_black_chateau|2"],
                 "sections": [{ "name": "Ivory Jewel Box Treasure" }],
                 "map_locations": [
@@ -234,6 +240,8 @@
             },
             {
                 "name": "The Black Chateau Vault",
+                "chest_opened_img": "images/icons/vault.png",
+                "chest_unopened_img": "images/icons/vault_uncollected.png",
                 "access_rules": [
                     "$vault_check|black_chateau|2",
                     "{$has_item|progressive_black_chateau|2}"
@@ -253,6 +261,8 @@
         "name": "The Black Chateau Bottles",
         "access_rules": ["@The Black Chateau"],
         "visibility_rules": ["bottlesanityon"],
+        "chest_opened_img": "images/icons/cluebottle.png",
+        "chest_unopened_img": "images/icons/cluebottle_uncollected.png",
         "children": [
             {
                 "name": "Clue Bottle 1",
