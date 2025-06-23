@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.2",
+            "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.2/Sly2-Poptracker_0.1.2.zip",
+            "sha256": "2e8bdd1d001573f6d1fbf507ab2526dc4945e2629b2795ea37c7542d9fc4ab5a",
+            "changelog": [
+                "Tracker UI adjustment to better support smaller resolutions. Adds grouped mission accessibility requirements based off of progressive episodes + mission completion."
+            ]
+        },
+        {
             "package_version": "0.1.1",
             "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.1/Sly2-Poptracker_0.1.1.zip",
             "sha256": "3f516ffb81566754091a520eee51726f9bb133bfd477ead9f38567a545a9cd36",
