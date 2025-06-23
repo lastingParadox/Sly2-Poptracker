@@ -5,7 +5,12 @@
         "children": [
             {
                 "name": "Spice Room Recon",
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "spice_room_recon_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "The Predator Awakes",
@@ -16,8 +21,16 @@
             },
             {
                 "name": "Water Bug Run",
-                "access_rules": ["$has_item|progressive_predator_awakes|2"],
-                "sections": [{ "name": "Job Complete" }],
+                "access_rules": [
+                    "spice_room_recon_complete, $has_item|progressive_predator_awakes|2",
+                    "{$has_item|progressive_predator_awakes|2}"
+                ],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "water_bug_run_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "The Predator Awakes",
@@ -28,8 +41,16 @@
             },
             {
                 "name": "Freeing the Elephant",
-                "access_rules": ["$has_item|progressive_predator_awakes|2"],
-                "sections": [{ "name": "Job Complete" }],
+                "access_rules": [
+                    "spice_room_recon_complete, $has_item|progressive_predator_awakes|2",
+                    "{$has_item|progressive_predator_awakes|2}"
+                ],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "freeing_the_elephant_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "The Predator Awakes",
@@ -40,8 +61,16 @@
             },
             {
                 "name": "Leading Rajan",
-                "access_rules": ["$has_item|progressive_predator_awakes|2"],
-                "sections": [{ "name": "Job Complete" }],
+                "access_rules": [
+                    "spice_room_recon_complete, $has_item|progressive_predator_awakes|2",
+                    "{$has_item|progressive_predator_awakes|2}"
+                ],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "leading_rajan_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "The Predator Awakes",
@@ -52,8 +81,16 @@
             },
             {
                 "name": "Neyla's Secret",
-                "access_rules": ["$has_item|progressive_predator_awakes|3"],
-                "sections": [{ "name": "Job Complete" }],
+                "access_rules": [
+                    "water_bug_run_complete, freeing_the_elephant_complete, leading_rajan_complete, $has_item|progressive_predator_awakes|3",
+                    "{$has_item|progressive_predator_awakes|3}"
+                ],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "neylas_secret_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "The Predator Awakes",
@@ -64,8 +101,16 @@
             },
             {
                 "name": "Spice Grinder Destruction",
-                "access_rules": ["$has_item|progressive_predator_awakes|3"],
-                "sections": [{ "name": "Job Complete" }],
+                "access_rules": [
+                    "water_bug_run_complete, freeing_the_elephant_complete, leading_rajan_complete, $has_item|progressive_predator_awakes|3",
+                    "{$has_item|progressive_predator_awakes|3}"
+                ],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "spice_grinder_destruction_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "The Predator Awakes",
@@ -76,8 +121,16 @@
             },
             {
                 "name": "Blow the Dam",
-                "access_rules": ["$has_item|progressive_predator_awakes|3"],
-                "sections": [{ "name": "Job Complete" }],
+                "access_rules": [
+                    "water_bug_run_complete, freeing_the_elephant_complete, leading_rajan_complete, $has_item|progressive_predator_awakes|3",
+                    "{$has_item|progressive_predator_awakes|3}"
+                ],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "blow_the_dam_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "The Predator Awakes",
@@ -88,8 +141,16 @@
             },
             {
                 "name": "Rip-Off the Ruby",
-                "access_rules": ["$has_item|progressive_predator_awakes|3"],
-                "sections": [{ "name": "Job Complete" }],
+                "access_rules": [
+                    "water_bug_run_complete, freeing_the_elephant_complete, leading_rajan_complete, $has_item|progressive_predator_awakes|3",
+                    "{$has_item|progressive_predator_awakes|3}"
+                ],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "rip_off_the_ruby_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "The Predator Awakes",
@@ -100,8 +161,16 @@
             },
             {
                 "name": "Operation: Wet Tiger",
-                "access_rules": ["$has_item|progressive_predator_awakes|4"],
-                "sections": [{ "name": "Job Complete" }],
+                "access_rules": [
+                    "neylas_secret_complete, spice_grinder_destruction_complete, blow_the_dam_complete, rip_off_the_ruby_complete, $has_item|progressive_predator_awakes|4",
+                    "{$has_item|progressive_predator_awakes|4}"
+                ],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "operation_wet_tiger_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "The Predator Awakes",

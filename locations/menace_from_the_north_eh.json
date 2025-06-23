@@ -5,7 +5,12 @@
         "children": [
             {
                 "name": "Recon the Sawmill",
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "recon_the_sawmill_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "Menace from the North, eh!",
@@ -17,9 +22,15 @@
             {
                 "name": "Bearcave Bugging",
                 "access_rules": [
-                    "$has_item|progressive_menace_from_the_north|2"
+                    "recon_the_sawmill_complete, $has_item|progressive_menace_from_the_north|2",
+                    "{$has_item|progressive_menace_from_the_north|2}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "bearcave_bugging_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "Menace from the North, eh!",
@@ -31,9 +42,15 @@
             {
                 "name": "RC Combat Club",
                 "access_rules": [
-                    "$has_item|progressive_menace_from_the_north|2"
+                    "recon_the_sawmill_complete, $has_item|progressive_menace_from_the_north|2",
+                    "{$has_item|progressive_menace_from_the_north|2}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "rc_combat_club_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "Menace from the North, eh!",
@@ -45,9 +62,15 @@
             {
                 "name": "Laser Redirection",
                 "access_rules": [
-                    "$has_item|progressive_menace_from_the_north|2"
+                    "recon_the_sawmill_complete, $has_item|progressive_menace_from_the_north|2",
+                    "{$has_item|progressive_menace_from_the_north|2}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "laser_redirection_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "Menace from the North, eh!",
@@ -59,9 +82,15 @@
             {
                 "name": "Lighthouse Break-In",
                 "access_rules": [
-                    "$has_item|progressive_menace_from_the_north|3"
+                    "bearcave_bugging_complete, rc_combat_club_complete, laser_redirection_complete, $has_item|progressive_menace_from_the_north|3",
+                    "{$has_item|progressive_menace_from_the_north|3}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "lighthouse_break_in_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "Menace from the North, eh!",
@@ -73,9 +102,15 @@
             {
                 "name": "Old Grizzle Face",
                 "access_rules": [
-                    "$has_item|progressive_menace_from_the_north|3"
+                    "bearcave_bugging_complete, rc_combat_club_complete, laser_redirection_complete, $has_item|progressive_menace_from_the_north|3",
+                    "{$has_item|progressive_menace_from_the_north|3}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "old_grizzle_face_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "Menace from the North, eh!",
@@ -87,9 +122,15 @@
             {
                 "name": "Boat Hack",
                 "access_rules": [
-                    "$has_item|progressive_menace_from_the_north|3"
+                    "bearcave_bugging_complete, rc_combat_club_complete, laser_redirection_complete, $has_item|progressive_menace_from_the_north|3",
+                    "{$has_item|progressive_menace_from_the_north|3}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "boat_hack_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "Menace from the North, eh!",
@@ -101,9 +142,15 @@
             {
                 "name": "Thermal Ride",
                 "access_rules": [
-                    "$has_item|progressive_menace_from_the_north|3, paraglider"
+                    "bearcave_bugging_complete, rc_combat_club_complete, laser_redirection_complete, $has_item|progressive_menace_from_the_north|3, paraglider",
+                    "{$has_item|progressive_menace_from_the_north|3, paraglider}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "thermal_ride_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "Menace from the North, eh!",
@@ -115,9 +162,15 @@
             {
                 "name": "Operation: Canada Games",
                 "access_rules": [
-                    "$has_item|progressive_menace_from_the_north|4, paraglider"
+                    "lighthouse_break_in_complete, old_grizzle_face_complete, boat_hack_complete, thermal_ride_complete, $has_item|progressive_menace_from_the_north|4, paraglider",
+                    "{$has_item|progressive_menace_from_the_north|4, paraglider}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "operation_canada_games_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "Menace from the North, eh!",

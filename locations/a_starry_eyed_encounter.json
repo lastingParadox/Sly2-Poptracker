@@ -5,7 +5,12 @@
         "children": [
             {
                 "name": "Recon the Ballroom",
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "recon_the_ballroom_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "A Starry Eyed Encounter",
@@ -17,9 +22,15 @@
             {
                 "name": "Lower the Drawbridge",
                 "access_rules": [
-                    "$has_item|progressive_starry_eyed_encounter|2"
+                    "recon_the_ballroom_complete, $has_item|progressive_starry_eyed_encounter|2",
+                    "{$has_item|progressive_starry_eyed_encounter|2}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "lower_the_drawbridge_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "A Starry Eyed Encounter",
@@ -31,9 +42,15 @@
             {
                 "name": "Steal a Tuxedo",
                 "access_rules": [
-                    "$has_item|progressive_starry_eyed_encounter|2"
+                    "recon_the_ballroom_complete, $has_item|progressive_starry_eyed_encounter|2",
+                    "{$has_item|progressive_starry_eyed_encounter|2}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "steal_a_tuxedo_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "A Starry Eyed Encounter",
@@ -45,9 +62,15 @@
             {
                 "name": "Dominate the Dance Floor",
                 "access_rules": [
-                    "$has_item|progressive_starry_eyed_encounter|2"
+                    "recon_the_ballroom_complete, $has_item|progressive_starry_eyed_encounter|2",
+                    "{$has_item|progressive_starry_eyed_encounter|2}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "dominate_the_dance_floor_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "A Starry Eyed Encounter",
@@ -59,9 +82,15 @@
             {
                 "name": "Battle the Chopper",
                 "access_rules": [
-                    "$has_item|progressive_starry_eyed_encounter|2"
+                    "recon_the_ballroom_complete, $has_item|progressive_starry_eyed_encounter|2",
+                    "{$has_item|progressive_starry_eyed_encounter|2}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "battle_the_chopper_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "A Starry Eyed Encounter",
@@ -73,11 +102,13 @@
             {
                 "name": "Boardroom Brawl",
                 "access_rules": [
-                    "$has_item|progressive_starry_eyed_encounter|3"
+                    "lower_the_drawbridge_complete, steal_a_tuxedo_complete, dominate_the_dance_floor_complete, battle_the_chopper_complete, $has_item|progressive_starry_eyed_encounter|3",
+                    "{$has_item|progressive_starry_eyed_encounter|3}"
                 ],
                 "sections": [
                     {
-                        "name": "Job Complete"
+                        "name": "Job Complete",
+                        "hosted_item": "boardroom_brawl_complete"
                     },
                     {
                         "name": "A Starry Eyed Encounter Vault",
@@ -98,9 +129,15 @@
             {
                 "name": "RC Bombing Run",
                 "access_rules": [
-                    "$has_item|progressive_starry_eyed_encounter|3"
+                    "lower_the_drawbridge_complete, steal_a_tuxedo_complete, dominate_the_dance_floor_complete, battle_the_chopper_complete, $has_item|progressive_starry_eyed_encounter|3",
+                    "{$has_item|progressive_starry_eyed_encounter|3}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "rc_bombing_run_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "A Starry Eyed Encounter",
@@ -112,9 +149,15 @@
             {
                 "name": "Elephant Rampage",
                 "access_rules": [
-                    "$has_item|progressive_starry_eyed_encounter|3"
+                    "lower_the_drawbridge_complete, steal_a_tuxedo_complete, dominate_the_dance_floor_complete, battle_the_chopper_complete, $has_item|progressive_starry_eyed_encounter|3",
+                    "{$has_item|progressive_starry_eyed_encounter|3}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "elephant_rampage_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "A Starry Eyed Encounter",
@@ -126,9 +169,15 @@
             {
                 "name": "Operation: Hippo Drop",
                 "access_rules": [
-                    "$has_item|progressive_starry_eyed_encounter|4"
+                    "boardroom_brawl_complete, rc_bombing_run_complete, elephant_rampage_complete, $has_item|progressive_starry_eyed_encounter|4",
+                    "{$has_item|progressive_starry_eyed_encounter|4}"
                 ],
-                "sections": [{ "name": "Job Complete" }],
+                "sections": [
+                    {
+                        "name": "Job Complete",
+                        "hosted_item": "operation_hippo_drop_complete"
+                    }
+                ],
                 "map_locations": [
                     {
                         "map": "A Starry Eyed Encounter",

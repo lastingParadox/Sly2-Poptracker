@@ -6,13 +6,13 @@
                 "title": "Sly",
                 "content": [
                     {
-                        "type": "array",
-                        "orientation": "vertical",
+                        "type": "dock",
                         "content": [
                             {
                                 "type": "itemgrid",
+                                "dock": "bottom",
                                 "h_alignment": "center",
-                                "item_margin": "1,5",
+                                "item_margin": "2,3",
                                 "item_size": 60,
                                 "rows": [
                                     [
@@ -56,7 +56,7 @@
                             {
                                 "type": "itemgrid",
                                 "h_alignment": "center",
-                                "item_margin": "1,5",
+                                "item_margin": "2,3",
                                 "item_size": 60,
                                 "rows": [
                                     [
@@ -88,7 +88,7 @@
                             {
                                 "type": "itemgrid",
                                 "h_alignment": "center",
-                                "item_margin": "1,5",
+                                "item_margin": "2,3",
                                 "item_size": 60,
                                 "rows": [
                                     [
@@ -118,20 +118,18 @@
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_margin": "1,5",
-                "item_size": 80,
+                "item_margin": "2,3",
+                "item_size": 60,
                 "rows": [
                     [
                         "progressive_black_chateau",
                         "progressive_starry_eyed_encounter",
-                        "progressive_predator_awakes"
+                        "progressive_predator_awakes",
+                        "progressive_jailbreak"
                     ],
                     [
-                        "progressive_jailbreak",
                         "progressive_tangled_web",
-                        "progressive_he_who_tames_the_iron_horse"
-                    ],
-                    [
+                        "progressive_he_who_tames_the_iron_horse",
                         "progressive_menace_from_the_north",
                         "progressive_anatomy_for_disaster"
                     ]
@@ -142,11 +140,12 @@
     "collectible_grid": {
         "type": "array",
         "orientation": "vertical",
+        "h_alignment": "center",
         "content": [
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_margin": "1,5",
+                "item_margin": "2,3",
                 "item_size": 60,
                 "rows": [
                     [
@@ -160,16 +159,9 @@
                         "bottle_he_who_tames_the_iron_horse",
                         "bottle_menace_from_the_north",
                         "bottle_anatomy_for_disaster"
-                    ]
+                    ],
+                    ["clockwerkpart"]
                 ]
-            },
-            {
-                "type": "item",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "item_margin": "1,5",
-                "max_height": 100,
-                "item": "clockwerkpart"
             }
         ]
     },
