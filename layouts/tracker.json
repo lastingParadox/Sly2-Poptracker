@@ -70,6 +70,120 @@
                     "key": "settings"
                 }
             ]
+        },
+        "tracker_broadcast": {
+            "type": "array",
+            "background": "#ED00FF",
+            "orientation": "vertical",
+            "h_alignment": "left",
+            "content": [
+                {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_margin": "5,2",
+                    "item_size": 60,
+                    "rows": [
+                        [
+                            "progressive_black_chateau",
+                            "progressive_starry_eyed_encounter",
+                            "progressive_predator_awakes",
+                            "progressive_jailbreak"
+                        ],
+                        [
+                            "progressive_tangled_web",
+                            "progressive_he_who_tames_the_iron_horse",
+                            "progressive_menace_from_the_north",
+                            "progressive_anatomy_for_disaster"
+                        ]
+                    ]
+                },
+                {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_margin": "5,2",
+                    "item_size": 60,
+                    "rows": [
+                        [
+                            "bottle_black_chateau",
+                            "bottle_starry_eyed_encounter",
+                            "bottle_predator_awakes",
+                            "bottle_jailbreak"
+                        ],
+                        [
+                            "bottle_tangled_web",
+                            "bottle_he_who_tames_the_iron_horse",
+                            "bottle_menace_from_the_north",
+                            "bottle_anatomy_for_disaster"
+                        ],
+                        ["clockwerkpart"]
+                    ]
+                },
+                {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_margin": "3,2",
+                    "item_size": 40,
+                    "rows": [
+                        [
+                            "smokebomb",
+                            "combatdodge",
+                            "stealthslide",
+                            "alarmclock",
+                            "thiefreflexes",
+                            "feralpounce"
+                        ],
+                        [
+                            "knockoutdive",
+                            "insanitystrike",
+                            "voltageattack",
+                            "ragebomb",
+                            "musicbox",
+                            "lightningspin"
+                        ],
+                        [
+                            "paraglider",
+                            "silentobliteration",
+                            "shadowpower",
+                            "megajump",
+                            "tom"
+                        ]
+                    ]
+                },
+                {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_margin": "3,2",
+                    "item_size": 40,
+                    "rows": [
+                        [
+                            "triggerbomb",
+                            "snoozebomb",
+                            "healthextractor",
+                            "reductionbomb",
+                            "adrenalineburst",
+                            "hoverpack"
+                        ],
+                        ["sizedestabilizer", "temporallock", "longtoss"]
+                    ]
+                },
+                {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_margin": "3,2",
+                    "item_size": 40,
+                    "rows": [
+                        [
+                            "fistsofflame",
+                            "raginginfernoflop",
+                            "berserkercharge",
+                            "diablofireslam",
+                            "turnbucklelaunch",
+                            "gutturalroar"
+                        ],
+                        ["juggernautthrow", "atlasstrength"]
+                    ]
+                }
+            ]
         }
     }
 }
