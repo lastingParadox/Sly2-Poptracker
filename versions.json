@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.3",
+            "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.3/Sly2-Poptracker_0.1.3.zip",
+            "sha256": "2a813299cb5d70e0a61ab12b1b15a7251e513f32f2b50b0c399b18caec87cec2",
+            "changelog": [
+                "Created a Horizontal Tracker view. Adds custom icons for most locations, including mission, clue bottle, vault icons. Adds tracker broadcast view."
+            ]
+        },
+        {
             "package_version": "0.1.2",
             "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.2/Sly2-Poptracker_0.1.2.zip",
             "sha256": "2e8bdd1d001573f6d1fbf507ab2526dc4945e2629b2795ea37c7542d9fc4ab5a",
