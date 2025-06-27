@@ -1,6 +1,12 @@
 {
     "versions": [
         {
+            "package_version": "0.1.4",
+            "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.4/Sly2-Poptracker_0.1.4.zip",
+            "sha256": "21945e80a75ccb9be9c1a82e71d54faa909b6593fe0bd71ef4d586caca2258b9",
+            "changelog": ["Removed confusing blue square access rules."]
+        },
+        {
             "package_version": "0.1.3",
             "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.3/Sly2-Poptracker_0.1.3.zip",
             "sha256": "2a813299cb5d70e0a61ab12b1b15a7251e513f32f2b50b0c399b18caec87cec2",
