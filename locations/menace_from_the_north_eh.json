@@ -22,8 +22,7 @@
             {
                 "name": "Bearcave Bugging",
                 "access_rules": [
-                    "recon_the_sawmill_complete, $has_item|progressive_menace_from_the_north|2",
-                    "{$has_item|progressive_menace_from_the_north|2}"
+                    "$has_item|progressive_menace_from_the_north|2"
                 ],
                 "sections": [
                     {
@@ -42,8 +41,7 @@
             {
                 "name": "RC Combat Club",
                 "access_rules": [
-                    "recon_the_sawmill_complete, $has_item|progressive_menace_from_the_north|2",
-                    "{$has_item|progressive_menace_from_the_north|2}"
+                    "$has_item|progressive_menace_from_the_north|2"
                 ],
                 "sections": [
                     {
@@ -62,8 +60,7 @@
             {
                 "name": "Laser Redirection",
                 "access_rules": [
-                    "recon_the_sawmill_complete, $has_item|progressive_menace_from_the_north|2",
-                    "{$has_item|progressive_menace_from_the_north|2}"
+                    "$has_item|progressive_menace_from_the_north|2"
                 ],
                 "sections": [
                     {
@@ -82,8 +79,7 @@
             {
                 "name": "Lighthouse Break-In",
                 "access_rules": [
-                    "bearcave_bugging_complete, rc_combat_club_complete, laser_redirection_complete, $has_item|progressive_menace_from_the_north|3",
-                    "{$has_item|progressive_menace_from_the_north|3}"
+                    "$has_item|progressive_menace_from_the_north|3"
                 ],
                 "sections": [
                     {
@@ -102,8 +98,7 @@
             {
                 "name": "Old Grizzle Face",
                 "access_rules": [
-                    "bearcave_bugging_complete, rc_combat_club_complete, laser_redirection_complete, $has_item|progressive_menace_from_the_north|3",
-                    "{$has_item|progressive_menace_from_the_north|3}"
+                    "$has_item|progressive_menace_from_the_north|3"
                 ],
                 "sections": [
                     {
@@ -122,8 +117,7 @@
             {
                 "name": "Boat Hack",
                 "access_rules": [
-                    "bearcave_bugging_complete, rc_combat_club_complete, laser_redirection_complete, $has_item|progressive_menace_from_the_north|3",
-                    "{$has_item|progressive_menace_from_the_north|3}"
+                    "$has_item|progressive_menace_from_the_north|3"
                 ],
                 "sections": [
                     {
@@ -142,8 +136,7 @@
             {
                 "name": "Thermal Ride",
                 "access_rules": [
-                    "bearcave_bugging_complete, rc_combat_club_complete, laser_redirection_complete, $has_item|progressive_menace_from_the_north|3, paraglider",
-                    "{$has_item|progressive_menace_from_the_north|3, paraglider}"
+                    "$has_item|progressive_menace_from_the_north|3, paraglider"
                 ],
                 "sections": [
                     {
@@ -162,8 +155,7 @@
             {
                 "name": "Operation: Canada Games",
                 "access_rules": [
-                    "lighthouse_break_in_complete, old_grizzle_face_complete, boat_hack_complete, thermal_ride_complete, $has_item|progressive_menace_from_the_north|4, paraglider",
-                    "{$has_item|progressive_menace_from_the_north|4, paraglider}"
+                    "$has_item|progressive_menace_from_the_north|4, paraglider"
                 ],
                 "sections": [
                     {
@@ -223,10 +215,7 @@
                 "name": "Menace from the North, eh! Vault",
                 "chest_opened_img": "images/icons/vault.png",
                 "chest_unopened_img": "images/icons/vault_uncollected.png",
-                "access_rules": [
-                    "$vault_check|menace_from_the_north|2",
-                    "{$has_item|progressive_menace_from_the_north|2}"
-                ],
+                "access_rules": ["$vault_check|menace_from_the_north|2"],
                 "sections": [{ "name": "Menace from the North, eh! Vault" }],
                 "map_locations": [
                     {

@@ -21,10 +21,7 @@
             },
             {
                 "name": "Ghost Capture",
-                "access_rules": [
-                    "know_your_enemy_complete, $has_item|progressive_tangled_web|2",
-                    "{$has_item|progressive_tangled_web|2}"
-                ],
+                "access_rules": ["$has_item|progressive_tangled_web|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -41,10 +38,7 @@
             },
             {
                 "name": "Mojo Trap Action",
-                "access_rules": [
-                    "know_your_enemy_complete, $has_item|progressive_tangled_web|2",
-                    "{$has_item|progressive_tangled_web|2}"
-                ],
+                "access_rules": ["$has_item|progressive_tangled_web|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -61,10 +55,7 @@
             },
             {
                 "name": "Kidnap the General",
-                "access_rules": [
-                    "know_your_enemy_complete, $has_item|progressive_tangled_web|2",
-                    "{$has_item|progressive_tangled_web|2}"
-                ],
+                "access_rules": ["$has_item|progressive_tangled_web|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -81,10 +72,7 @@
             },
             {
                 "name": "Stealing Voices",
-                "access_rules": [
-                    "ghost_capture_complete, mojo_trap_action_complete, kidnap_the_general_complete, $has_item|progressive_tangled_web|3",
-                    "{$has_item|progressive_tangled_web|3}"
-                ],
+                "access_rules": ["$has_item|progressive_tangled_web|3"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -101,10 +89,7 @@
             },
             {
                 "name": "Tank Showdown",
-                "access_rules": [
-                    "ghost_capture_complete, mojo_trap_action_complete, kidnap_the_general_complete, $has_item|progressive_tangled_web|3",
-                    "{$has_item|progressive_tangled_web|3}"
-                ],
+                "access_rules": ["$has_item|progressive_tangled_web|3"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -121,10 +106,7 @@
             },
             {
                 "name": "Crypt Hack",
-                "access_rules": [
-                    "ghost_capture_complete, mojo_trap_action_complete, kidnap_the_general_complete, $has_item|progressive_tangled_web|3",
-                    "{$has_item|progressive_tangled_web|3}"
-                ],
+                "access_rules": ["$has_item|progressive_tangled_web|3"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -142,8 +124,7 @@
             {
                 "name": "Operation: High Road",
                 "access_rules": [
-                    "stealing_voices_complete, tank_showdown_complete, crypt_hack_complete, $has_item|progressive_tangled_web|4, paraglider",
-                    "{$has_item|progressive_tangled_web|4, paraglider}"
+                    "$has_item|progressive_tangled_web|4, paraglider"
                 ],
                 "sections": [
                     {
@@ -203,10 +184,7 @@
                 "name": "A Tangled Web Vault",
                 "chest_opened_img": "images/icons/vault.png",
                 "chest_unopened_img": "images/icons/vault_uncollected.png",
-                "access_rules": [
-                    "$vault_check|tangled_web|3",
-                    "{$has_item|progressive_tangled_web|3}"
-                ],
+                "access_rules": ["$vault_check|tangled_web|3"],
                 "sections": [{ "name": "A Tangled Web Vault" }],
                 "map_locations": [
                     {

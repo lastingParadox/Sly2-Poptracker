@@ -22,8 +22,7 @@
             {
                 "name": "Spice in the Sky",
                 "access_rules": [
-                    "cabin_crimes_complete, $has_item|progressive_he_who_tames_the_iron_horse|2, paraglider",
-                    "{$has_item|progressive_he_who_tames_the_iron_horse|2, paraglider}"
+                    "$has_item|progressive_he_who_tames_the_iron_horse|2, paraglider"
                 ],
                 "sections": [
                     {
@@ -42,8 +41,7 @@
             {
                 "name": "A Friend in Need",
                 "access_rules": [
-                    "cabin_crimes_complete, $has_item|progressive_he_who_tames_the_iron_horse|2",
-                    "{$has_item|progressive_he_who_tames_the_iron_horse|2}"
+                    "$has_item|progressive_he_who_tames_the_iron_horse|2"
                 ],
                 "sections": [
                     {
@@ -62,8 +60,7 @@
             {
                 "name": "Ride the Iron Horse",
                 "access_rules": [
-                    "cabin_crimes_complete, $has_item|progressive_he_who_tames_the_iron_horse|2, paraglider",
-                    "{$has_item|progressive_he_who_tames_the_iron_horse|2, paraglider}"
+                    "$has_item|progressive_he_who_tames_the_iron_horse|2, paraglider"
                 ],
                 "sections": [
                     {
@@ -82,8 +79,7 @@
             {
                 "name": "Aerial Assault",
                 "access_rules": [
-                    "spice_in_the_sky_complete, a_friend_in_need_complete, ride_the_iron_horse_complete, $has_item|progressive_he_who_tames_the_iron_horse|3, paraglider",
-                    "{$has_item|progressive_he_who_tames_the_iron_horse|3, paraglider}"
+                    "$has_item|progressive_he_who_tames_the_iron_horse|3, paraglider"
                 ],
                 "sections": [
                     {
@@ -102,8 +98,7 @@
             {
                 "name": "Bear Cub Kidnapping",
                 "access_rules": [
-                    "spice_in_the_sky_complete, a_friend_in_need_complete, ride_the_iron_horse_complete, $has_item|progressive_he_who_tames_the_iron_horse|3, paraglider",
-                    "{$has_item|progressive_he_who_tames_the_iron_horse|3, paraglider}"
+                    "$has_item|progressive_he_who_tames_the_iron_horse|3, paraglider"
                 ],
                 "sections": [
                     {
@@ -122,8 +117,7 @@
             {
                 "name": "Theft on the Rails",
                 "access_rules": [
-                    "spice_in_the_sky_complete, a_friend_in_need_complete, ride_the_iron_horse_complete, $has_item|progressive_he_who_tames_the_iron_horse|3, paraglider",
-                    "{$has_item|progressive_he_who_tames_the_iron_horse|3, paraglider}"
+                    "$has_item|progressive_he_who_tames_the_iron_horse|3, paraglider"
                 ],
                 "sections": [
                     {
@@ -142,8 +136,7 @@
             {
                 "name": "Operation: Choo-Choo",
                 "access_rules": [
-                    "aerial_assault_complete, bear_cub_kidnapping_complete, theft_on_the_rails_complete, $has_item|progressive_he_who_tames_the_iron_horse|4, paraglider",
-                    "{$has_item|progressive_he_who_tames_the_iron_horse|4, paraglider}"
+                    "$has_item|progressive_he_who_tames_the_iron_horse|4, paraglider"
                 ],
                 "sections": [
                     {
@@ -202,10 +195,7 @@
                 "name": "He Who Tames the Iron Horse Vault",
                 "chest_opened_img": "images/icons/vault.png",
                 "chest_unopened_img": "images/icons/vault_uncollected.png",
-                "access_rules": [
-                    "$vault_check|he_who_tames_the_iron_horse|1, cabin_crimes_complete",
-                    "{}"
-                ],
+                "access_rules": ["$vault_check|he_who_tames_the_iron_horse|1"],
                 "sections": [{ "name": "He Who Tames the Iron Horse Vault" }],
                 "map_locations": [
                     {

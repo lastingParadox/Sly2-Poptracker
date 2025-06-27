@@ -22,8 +22,7 @@
             {
                 "name": "Lower the Drawbridge",
                 "access_rules": [
-                    "recon_the_ballroom_complete, $has_item|progressive_starry_eyed_encounter|2",
-                    "{$has_item|progressive_starry_eyed_encounter|2}"
+                    "$has_item|progressive_starry_eyed_encounter|2"
                 ],
                 "sections": [
                     {
@@ -42,8 +41,7 @@
             {
                 "name": "Steal a Tuxedo",
                 "access_rules": [
-                    "recon_the_ballroom_complete, $has_item|progressive_starry_eyed_encounter|2",
-                    "{$has_item|progressive_starry_eyed_encounter|2}"
+                    "$has_item|progressive_starry_eyed_encounter|2"
                 ],
                 "sections": [
                     {
@@ -62,8 +60,7 @@
             {
                 "name": "Dominate the Dance Floor",
                 "access_rules": [
-                    "recon_the_ballroom_complete, $has_item|progressive_starry_eyed_encounter|2",
-                    "{$has_item|progressive_starry_eyed_encounter|2}"
+                    "$has_item|progressive_starry_eyed_encounter|2"
                 ],
                 "sections": [
                     {
@@ -82,8 +79,7 @@
             {
                 "name": "Battle the Chopper",
                 "access_rules": [
-                    "recon_the_ballroom_complete, $has_item|progressive_starry_eyed_encounter|2",
-                    "{$has_item|progressive_starry_eyed_encounter|2}"
+                    "$has_item|progressive_starry_eyed_encounter|2"
                 ],
                 "sections": [
                     {
@@ -102,8 +98,7 @@
             {
                 "name": "Boardroom Brawl",
                 "access_rules": [
-                    "lower_the_drawbridge_complete, steal_a_tuxedo_complete, dominate_the_dance_floor_complete, battle_the_chopper_complete, $has_item|progressive_starry_eyed_encounter|3",
-                    "{$has_item|progressive_starry_eyed_encounter|3}"
+                    "$has_item|progressive_starry_eyed_encounter|3"
                 ],
                 "sections": [
                     {
@@ -114,10 +109,7 @@
                         "name": "A Starry Eyed Encounter Vault",
                         "chest_opened_img": "images/icons/vault.png",
                         "chest_unopened_img": "images/icons/vault_uncollected.png",
-                        "access_rules": [
-                            "$vault_check|starry_eyed_encounter|3",
-                            "{$has_item|progressive_starry_eyed_encounter|3}"
-                        ]
+                        "access_rules": ["$vault_check|starry_eyed_encounter|3"]
                     }
                 ],
                 "map_locations": [
@@ -131,8 +123,7 @@
             {
                 "name": "RC Bombing Run",
                 "access_rules": [
-                    "lower_the_drawbridge_complete, steal_a_tuxedo_complete, dominate_the_dance_floor_complete, battle_the_chopper_complete, $has_item|progressive_starry_eyed_encounter|3",
-                    "{$has_item|progressive_starry_eyed_encounter|3}"
+                    "$has_item|progressive_starry_eyed_encounter|3"
                 ],
                 "sections": [
                     {
@@ -151,8 +142,7 @@
             {
                 "name": "Elephant Rampage",
                 "access_rules": [
-                    "lower_the_drawbridge_complete, steal_a_tuxedo_complete, dominate_the_dance_floor_complete, battle_the_chopper_complete, $has_item|progressive_starry_eyed_encounter|3",
-                    "{$has_item|progressive_starry_eyed_encounter|3}"
+                    "$has_item|progressive_starry_eyed_encounter|3"
                 ],
                 "sections": [
                     {
@@ -171,8 +161,7 @@
             {
                 "name": "Operation: Hippo Drop",
                 "access_rules": [
-                    "boardroom_brawl_complete, rc_bombing_run_complete, elephant_rampage_complete, $has_item|progressive_starry_eyed_encounter|4",
-                    "{$has_item|progressive_starry_eyed_encounter|4}"
+                    "$has_item|progressive_starry_eyed_encounter|4"
                 ],
                 "sections": [
                     {

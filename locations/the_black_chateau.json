@@ -21,7 +21,6 @@
             },
             {
                 "name": "Breaking and Entering",
-                "access_rules": ["satellite_sabotage_complete", "{}"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -38,10 +37,7 @@
             },
             {
                 "name": "Bug Dimitri's Office",
-                "access_rules": [
-                    "satellite_sabotage_complete, breaking_and_entering_complete, $has_item|progressive_black_chateau|2",
-                    "{$has_item|progressive_black_chateau|2}"
-                ],
+                "access_rules": ["$has_item|progressive_black_chateau|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -58,10 +54,7 @@
             },
             {
                 "name": "Follow Dimitri",
-                "access_rules": [
-                    "satellite_sabotage_complete, breaking_and_entering_complete, $has_item|progressive_black_chateau|2",
-                    "{$has_item|progressive_black_chateau|2}"
-                ],
+                "access_rules": ["$has_item|progressive_black_chateau|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -78,10 +71,7 @@
             },
             {
                 "name": "Waterpump Destruction",
-                "access_rules": [
-                    "satellite_sabotage_complete, breaking_and_entering_complete, $has_item|progressive_black_chateau|2",
-                    "{$has_item|progressive_black_chateau|2}"
-                ],
+                "access_rules": ["$has_item|progressive_black_chateau|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -98,10 +88,7 @@
             },
             {
                 "name": "Silence the Alarms",
-                "access_rules": [
-                    "bug_dimitris_office_complete, follow_dimitri_complete, waterpump_destruction_complete, $has_item|progressive_black_chateau|3",
-                    "{$has_item|progressive_black_chateau|3}"
-                ],
+                "access_rules": ["$has_item|progressive_black_chateau|3"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -118,10 +105,7 @@
             },
             {
                 "name": "Theater Pickpocketing",
-                "access_rules": [
-                    "bug_dimitris_office_complete, follow_dimitri_complete, waterpump_destruction_complete, $has_item|progressive_black_chateau|3",
-                    "{$has_item|progressive_black_chateau|3}"
-                ],
+                "access_rules": ["$has_item|progressive_black_chateau|3"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -138,10 +122,7 @@
             },
             {
                 "name": "Moonlight Rendezvous",
-                "access_rules": [
-                    "bug_dimitris_office_complete, follow_dimitri_complete, waterpump_destruction_complete, $has_item|progressive_black_chateau|3",
-                    "{$has_item|progressive_black_chateau|3}"
-                ],
+                "access_rules": ["$has_item|progressive_black_chateau|3"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -158,10 +139,7 @@
             },
             {
                 "name": "Disco Demolitions",
-                "access_rules": [
-                    "bug_dimitris_office_complete, follow_dimitri_complete, waterpump_destruction_complete, $has_item|progressive_black_chateau|3",
-                    "{$has_item|progressive_black_chateau|3}"
-                ],
+                "access_rules": ["$has_item|progressive_black_chateau|3"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -178,10 +156,7 @@
             },
             {
                 "name": "Operation: Thunder Beak",
-                "access_rules": [
-                    "silence_the_alarms_complete, theater_pickpocketing_complete, moonlight_rendezvous_complete, disco_demolitions_complete, $has_item|progressive_black_chateau|4",
-                    "{$has_item|progressive_black_chateau|4}"
-                ],
+                "access_rules": ["$has_item|progressive_black_chateau|4"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -242,10 +217,7 @@
                 "name": "The Black Chateau Vault",
                 "chest_opened_img": "images/icons/vault.png",
                 "chest_unopened_img": "images/icons/vault_uncollected.png",
-                "access_rules": [
-                    "$vault_check|black_chateau|2",
-                    "{$has_item|progressive_black_chateau|2}"
-                ],
+                "access_rules": ["$vault_check|black_chateau|2"],
                 "sections": [{ "name": "The Black Chateau Vault" }],
                 "map_locations": [
                     {

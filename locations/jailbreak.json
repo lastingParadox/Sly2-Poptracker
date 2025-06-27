@@ -21,10 +21,7 @@
             },
             {
                 "name": "Train Hack",
-                "access_rules": [
-                    "eavesdrop_on_contessa_complete, $has_item|progressive_jailbreak|1",
-                    "{$has_item|progressive_jailbreak|1}"
-                ],
+                "access_rules": ["$has_item|progressive_jailbreak|1"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -41,10 +38,7 @@
             },
             {
                 "name": "Wall Bombing",
-                "access_rules": [
-                    "eavesdrop_on_contessa_complete, $has_item|progressive_jailbreak|1",
-                    "{$has_item|progressive_jailbreak|1}"
-                ],
+                "access_rules": ["$has_item|progressive_jailbreak|1"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -61,10 +55,7 @@
             },
             {
                 "name": "Big House Brawl",
-                "access_rules": [
-                    "eavesdrop_on_contessa_complete, train_hack_complete, wall_bombing_complete, $has_item|progressive_jailbreak|2",
-                    "{$has_item|progressive_jailbreak|2}"
-                ],
+                "access_rules": ["$has_item|progressive_jailbreak|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -81,10 +72,7 @@
             },
             {
                 "name": "Lightning Action",
-                "access_rules": [
-                    "eavesdrop_on_contessa_complete, train_hack_complete, wall_bombing_complete, $has_item|progressive_jailbreak|2",
-                    "{$has_item|progressive_jailbreak|2}"
-                ],
+                "access_rules": ["$has_item|progressive_jailbreak|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -101,10 +89,7 @@
             },
             {
                 "name": "Disguise Bridge",
-                "access_rules": [
-                    "eavesdrop_on_contessa_complete, train_hack_complete, wall_bombing_complete, $has_item|progressive_jailbreak|2",
-                    "{$has_item|progressive_jailbreak|2}"
-                ],
+                "access_rules": ["$has_item|progressive_jailbreak|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -121,10 +106,7 @@
             },
             {
                 "name": "Code Capture",
-                "access_rules": [
-                    "eavesdrop_on_contessa_complete, train_hack_complete, wall_bombing_complete, $has_item|progressive_jailbreak|2",
-                    "{$has_item|progressive_jailbreak|2}"
-                ],
+                "access_rules": ["$has_item|progressive_jailbreak|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -141,10 +123,7 @@
             },
             {
                 "name": "Close to Contessa",
-                "access_rules": [
-                    "eavesdrop_on_contessa_complete, train_hack_complete, wall_bombing_complete, $has_item|progressive_jailbreak|2",
-                    "{$has_item|progressive_jailbreak|2}"
-                ],
+                "access_rules": ["$has_item|progressive_jailbreak|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -161,10 +140,7 @@
             },
             {
                 "name": "Operation: Trojan Tank",
-                "access_rules": [
-                    "big_house_brawl_complete, lightning_action_complete, disguise_bridge_complete, code_capture_complete, close_to_contessa_complete, $has_item|progressive_jailbreak|3",
-                    "{$has_item|progressive_jailbreak|3}"
-                ],
+                "access_rules": ["$has_item|progressive_jailbreak|3"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -222,7 +198,7 @@
                 "name": "Jailbreak Vault",
                 "chest_opened_img": "images/icons/vault.png",
                 "chest_unopened_img": "images/icons/vault_uncollected.png",
-                "access_rules": ["$vault_check|jailbreak|1", "{}"],
+                "access_rules": ["$vault_check|jailbreak|1"],
                 "sections": [{ "name": "Jailbreak Vault" }],
                 "map_locations": [
                     {

@@ -21,10 +21,7 @@
             },
             {
                 "name": "Charged TNT Run",
-                "access_rules": [
-                    "blimp_hq_recon_complete, $anatomy_for_disaster_check|2",
-                    "{$anatomy_for_disaster_check|2}"
-                ],
+                "access_rules": ["$anatomy_for_disaster_check|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -41,10 +38,7 @@
             },
             {
                 "name": "Murray/Sly Tag Team",
-                "access_rules": [
-                    "blimp_hq_recon_complete, $anatomy_for_disaster_check|2",
-                    "{$anatomy_for_disaster_check|2}"
-                ],
+                "access_rules": ["$anatomy_for_disaster_check|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -61,10 +55,7 @@
             },
             {
                 "name": "Sly/Bentley Conspire",
-                "access_rules": [
-                    "blimp_hq_recon_complete, $anatomy_for_disaster_check|2",
-                    "{$anatomy_for_disaster_check|2}"
-                ],
+                "access_rules": ["$anatomy_for_disaster_check|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -81,10 +72,7 @@
             },
             {
                 "name": "Bentley/Murray Team Up",
-                "access_rules": [
-                    "blimp_hq_recon_complete, $anatomy_for_disaster_check|2",
-                    "{$anatomy_for_disaster_check|2}"
-                ],
+                "access_rules": ["$anatomy_for_disaster_check|2"],
                 "sections": [
                     {
                         "name": "Job Complete",
@@ -101,10 +89,7 @@
             },
             {
                 "name": "Mega-Jump Job + Carmelita's Gunner",
-                "access_rules": [
-                    "charged_tnt_run_complete, murray_sly_tag_team_complete, sly_bentley_conspire_complete, bentley_murray_team_up_complete, $anatomy_for_disaster_check|3",
-                    "{$anatomy_for_disaster_check|3}"
-                ],
+                "access_rules": ["$anatomy_for_disaster_check|3"],
                 "sections": [
                     {
                         "name": "Mega-Jump Job Complete",
@@ -112,10 +97,7 @@
                     },
                     {
                         "name": "Carmelita's Gunner Complete",
-                        "access_rules": [
-                            "mega_jump_job_complete, $anatomy_for_disaster_check|4",
-                            "{$anatomy_for_disaster_check|4}"
-                        ],
+                        "access_rules": ["$anatomy_for_disaster_check|4"],
                         "hosted_item": "carmelitas_gunner_complete"
                     }
                 ],
@@ -170,10 +152,7 @@
                 "name": "Anatomy for Disaster Vault",
                 "chest_opened_img": "images/icons/vault.png",
                 "chest_unopened_img": "images/icons/vault_uncollected.png",
-                "access_rules": [
-                    "$vault_check|anatomy_for_disaster|2",
-                    "{$anatomy_for_disaster_check|2}"
-                ],
+                "access_rules": ["$vault_check|anatomy_for_disaster|2"],
                 "sections": [{ "name": "Anatomy for Disaster Vault" }],
                 "map_locations": [
                     {
