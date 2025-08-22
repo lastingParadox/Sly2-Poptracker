@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.5",
+            "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.4/Sly2-Poptracker_0.1.5.zip",
+            "sha256": "b0e40b5d393b835d89eff01626988cd31a45307fae081150c2a680d4ae4c50d9",
+            "changelog": [
+                "Fixed bottlesanity option when hooked up to AP. Swaps location ids of Decanter and Collectible Plate treasures."
+            ]
+        },
+        {
             "package_version": "0.1.4",
             "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.4/Sly2-Poptracker_0.1.4.zip",
             "sha256": "21945e80a75ccb9be9c1a82e71d54faa909b6593fe0bd71ef4d586caca2258b9",
