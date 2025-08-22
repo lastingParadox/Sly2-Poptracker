@@ -230,7 +230,7 @@
         ]
     },
     {
-        "name": "The Black Chateau Bottles",
+        "name": "The Black Chateau Bottlesanity",
         "access_rules": ["@The Black Chateau"],
         "visibility_rules": ["bottlesanityon"],
         "chest_opened_img": "images/icons/cluebottle.png",

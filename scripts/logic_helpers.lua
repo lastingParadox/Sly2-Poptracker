@@ -8,6 +8,16 @@ function has_item(item, amount)
     end
 end
 
+function has_item_exactly(item, amount)
+    local count = Tracker:ProviderCountForCode(item)
+    amount = tonumber(amount)
+    if not amount then
+        return false
+    else
+        return count == amount
+    end
+end
+
 function vault_check(episode, amount)
     local has_episode = episode == "anatomy_for_disaster" and anatomy_for_disaster_check(amount) or
         has_item("progressive_" .. episode, amount)

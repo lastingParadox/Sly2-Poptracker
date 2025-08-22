@@ -219,7 +219,7 @@
         ]
     },
     {
-        "name": "A Starry Eyed Encounter Bottles",
+        "name": "A Starry Eyed Encounter Bottlesanity",
         "access_rules": ["@A Starry Eyed Encounter"],
         "visibility_rules": ["bottlesanityon"],
         "chest_opened_img": "images/icons/cluebottle.png",

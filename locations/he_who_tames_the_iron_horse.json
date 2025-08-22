@@ -208,7 +208,7 @@
         ]
     },
     {
-        "name": "He Who Tames the Iron Horse Bottles",
+        "name": "He Who Tames the Iron Horse Bottlesanity",
         "access_rules": ["@He Who Tames the Iron Horse"],
         "chest_opened_img": "images/icons/cluebottle.png",
         "chest_unopened_img": "images/icons/cluebottle_uncollected.png",

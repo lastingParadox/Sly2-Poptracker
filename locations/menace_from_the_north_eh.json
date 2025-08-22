@@ -228,7 +228,7 @@
         ]
     },
     {
-        "name": "Menace from the North, eh! Bottles",
+        "name": "Menace from the North, eh! Bottlesanity",
         "access_rules": [["@Menace from the North, eh!"]],
         "chest_opened_img": "images/icons/cluebottle.png",
         "chest_unopened_img": "images/icons/cluebottle_uncollected.png",

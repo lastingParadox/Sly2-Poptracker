@@ -197,7 +197,7 @@
         ]
     },
     {
-        "name": "A Tangled Web Bottles",
+        "name": "A Tangled Web Bottlesanity",
         "access_rules": ["@A Tangled Web"],
         "visibility_rules": ["bottlesanityon"],
         "chest_opened_img": "images/icons/cluebottle.png",

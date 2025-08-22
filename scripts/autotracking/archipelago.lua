@@ -122,11 +122,7 @@ function onClear(slot_data)
                     object.Active = value
                 elseif SLOT_CODES[key].type == "progressive" then
                     -- bottle_location_bundle_size is a number in the yaml, but progressive in Poptracker
-                    if key == "bottle_location_bundle_size" then
-                        object.CurrentStage = (value > 0) and 1 or 0
-                    else
-                        object.CurrentStage = SLOT_CODES[key].mapping[value]
-                    end
+                    object.CurrentStage = SLOT_CODES[key].mapping[value]
                 elseif SLOT_CODES[key].type == "consumable" then
                     object.AcquiredCount = value
                 end

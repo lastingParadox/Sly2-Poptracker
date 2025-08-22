@@ -211,7 +211,7 @@
         ]
     },
     {
-        "name": "The Predator Awakes Bottles",
+        "name": "The Predator Awakes Bottlesanity",
         "access_rules": ["@The Predator Awakes"],
         "visibility_rules": ["bottlesanityon"],
         "chest_opened_img": "images/icons/cluebottle.png",
