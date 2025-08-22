@@ -211,7 +211,7 @@
         ]
     },
     {
-        "name": "Jailbreak Bottles",
+        "name": "Jailbreak Bottlesanity",
         "access_rules": ["@Jailbreak"],
         "visibility_rules": ["bottlesanityon"],
         "chest_opened_img": "images/icons/cluebottle.png",

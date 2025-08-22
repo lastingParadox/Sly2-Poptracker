@@ -165,7 +165,7 @@
         ]
     },
     {
-        "name": "Anatomy for Disaster Bottles",
+        "name": "Anatomy for Disaster Bottlesanity",
         "access_rules": ["@Anatomy for Disaster"],
         "visibility_rules": ["bottlesanityon"],
         "chest_opened_img": "images/icons/cluebottle.png",

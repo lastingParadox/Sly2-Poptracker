@@ -13,7 +13,7 @@ SLOT_CODES = {
         code = "episode8keysrequired",
         type = "consumable"
     },
-    bottle_location_bundle_size = {
+    bottlesanity = {
         code = "bottlesanity",
         type = "progressive",
         mapping = {
