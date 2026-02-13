@@ -39,7 +39,7 @@
                                         "shadowpower",
                                         "tom"
                                     ],
-                                    ["megajump"]
+                                    ["megajump", "timerush"]
                                 ]
                             }
                         ]
@@ -148,7 +148,8 @@
                                         "silentobliteration",
                                         "shadowpower",
                                         "megajump",
-                                        "tom"
+                                        "tom",
+                                        "timerush"
                                     ]
                                 ]
                             }
