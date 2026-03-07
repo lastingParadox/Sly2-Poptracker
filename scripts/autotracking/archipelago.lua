@@ -154,10 +154,10 @@ function onItem(index, item_id, item_name, player_number)
     local value = {}
 
     -- All clockwerk parts are the same in the Poptracker
-    if item_id >= 123035 and item_id <= 123055 then
-        value = ITEM_MAPPING[123035]
+    if item_id >= 123036 and item_id <= 123056 then
+        value = ITEM_MAPPING[123036]
         -- All bottles are condensed into one and add x bottle_amount to the consumable item
-    elseif item_id >= 123056 and item_id <= 123295 then
+    elseif item_id >= 123057 and item_id <= 123296 then
         local code = handle_bottle_item(item_id)
         if code then
             table.insert(OBTAINED_ITEMS, code)

@@ -236,5 +236,12 @@
         "img": "images/items/sly/tom.png",
         "img_mods": "",
         "codes": "tom"
+    },
+    {
+        "name": "Time Rush",
+        "type": "toggle",
+        "img": "images/items/sly/timerush.png",
+        "img_mods": "",
+        "codes": "timerush"
     }
 ]
