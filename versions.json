@@ -3,7 +3,7 @@
         {
             "package_version": "0.1.6",
             "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.6/Sly2-Poptracker_0.1.6.zip",
-            "sha256": "b0e40b5d393b835d89eff01626988cd31a45307fae081150c2a680d4ae4c50d9",
+            "sha256": "53feb03703a1264f3762430ca4d9b42dd03f6535bef366b78f3c650e40cbbfd7",
             "changelog": [
                 "Added pickpocketing, vaults, TOM, mega jump, time rush, goal settings, added loot locations for each episode. Resolved issue with item ids being offset by 1."
             ]
