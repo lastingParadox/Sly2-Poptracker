@@ -185,6 +185,7 @@
                 "chest_opened_img": "images/icons/vault.png",
                 "chest_unopened_img": "images/icons/vault_uncollected.png",
                 "access_rules": ["$vault_check|tangled_web|3"],
+                "visibility_rules": ["vaultson"],
                 "sections": [{ "name": "A Tangled Web Vault" }],
                 "map_locations": [
                     {

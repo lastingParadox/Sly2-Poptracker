@@ -8,22 +8,22 @@
             {
                 "img": "images/system/episode_8_keys_0.png",
                 "inherit_codes": "false",
-                "codes": "episode_8_keys,episode8keysfirst"
+                "codes": "episode_8_keys,episode_8_keys_first"
             },
             {
                 "img": "images/system/episode_8_keys_1.png",
                 "inherit_codes": "false",
-                "codes": "episode_8_keys,episode8keyslast"
+                "codes": "episode_8_keys,episode_8_keys_last"
             },
             {
                 "img": "images/system/episode_8_keys_2.png",
                 "inherit_codes": "false",
-                "codes": "episode_8_keys,episode8keysepisode"
+                "codes": "episode_8_keys,episode_8_keys_episode"
             },
             {
                 "img": "images/system/episode_8_keys_3.png",
                 "inherit_codes": "false",
-                "codes": "episode_8_keys,episode8keysoff"
+                "codes": "episode_8_keys,episode_8_keys_off"
             }
         ]
     },
@@ -39,10 +39,10 @@
         "overlay_align": "center",
         "img": "images/system/episode_8_required_keys.png",
         "img_mods": "",
-        "codes": "episode8keysrequired"
+        "codes": "episode_8_keys_required"
     },
     {
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "allow_disabled": "false",
         "inherit_codes": "false",
         "type": "progressive",
@@ -72,5 +72,171 @@
         "img": "images/system/bottle_bundle_size.png",
         "img_mods": "",
         "codes": "bottle_bundle_size"
+    },
+    {
+        "name": "Bottle Location Bundle Size",
+        "type": "consumable",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 30,
+        "increment": 1,
+        "decrement": 1,
+        "overlay_font_size": 30,
+        "overlay_align": "center",
+        "img": "images/system/bottle_location_bundle_size.png",
+        "img_mods": "",
+        "codes": "bottle_location_bundle_size"
+    },
+    {
+        "initial_stage_idx": 1,
+        "allow_disabled": "false",
+        "inherit_codes": "false",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/system/include_vaults_off.png",
+                "inherit_codes": "false",
+                "codes": "include_vaults,vaultsoff"
+            },
+            {
+                "img": "images/system/include_vaults_on.png",
+                "inherit_codes": "false",
+                "codes": "include_vaults,vaultson"
+            }
+        ]
+    },
+    {
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "inherit_codes": "false",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/system/include_pickpocketing_off.png",
+                "inherit_codes": "false",
+                "codes": "include_pickpocketing,pickpocketingoff"
+            },
+            {
+                "img": "images/system/include_pickpocketing_on.png",
+                "inherit_codes": "false",
+                "codes": "include_pickpocketing,pickpocketingon"
+            }
+        ]
+    },
+    {
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "inherit_codes": "false",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/system/include_tom_off.png",
+                "inherit_codes": "false",
+                "codes": "include_tom,tomoff"
+            },
+            {
+                "img": "images/system/include_tom_on.png",
+                "inherit_codes": "false",
+                "codes": "include_tom,tomon"
+            }
+        ]
+    },
+    {
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "inherit_codes": "false",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/system/include_mega_jump_off.png",
+                "inherit_codes": "false",
+                "codes": "include_mega_jump,megajumpoff"
+            },
+            {
+                "img": "images/system/include_mega_jump_on.png",
+                "inherit_codes": "false",
+                "codes": "include_mega_jump,megajumpon"
+            }
+        ]
+    },
+    {
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "inherit_codes": "false",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/system/include_time_rush_off.png",
+                "inherit_codes": "false",
+                "codes": "include_time_rush,timerushoff"
+            },
+            {
+                "img": "images/system/include_time_rush_on.png",
+                "inherit_codes": "false",
+                "codes": "include_time_rush,timerushon"
+            }
+        ]
+    },
+    {
+        "initial_stage_idx": 0,
+        "allow_disabled": "false",
+        "inherit_codes": "false",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/system/goal_0.png",
+                "inherit_codes": "false",
+                "codes": "goal,goal_0"
+            },
+            {
+                "img": "images/system/goal_1.png",
+                "inherit_codes": "false",
+                "codes": "goal,goal_1"
+            },
+            {
+                "img": "images/system/goal_2.png",
+                "inherit_codes": "false",
+                "codes": "goal,goal_2"
+            },
+            {
+                "img": "images/system/goal_3.png",
+                "inherit_codes": "false",
+                "codes": "goal,goal_3"
+            },
+            {
+                "img": "images/system/goal_4.png",
+                "inherit_codes": "false",
+                "codes": "goal,goal_4"
+            },
+            {
+                "img": "images/system/goal_5.png",
+                "inherit_codes": "false",
+                "codes": "goal,goal_5"
+            },
+            {
+                "img": "images/system/goal_6.png",
+                "inherit_codes": "false",
+                "codes": "goal,goal_6"
+            },
+            {
+                "img": "images/system/goal_7.png",
+                "inherit_codes": "false",
+                "codes": "goal,goal_7"
+            }
+        ]
+    },
+    {
+        "name": "Required Keys Goal",
+        "type": "consumable",
+        "initial_quantity": 10,
+        "min_quantity": 1,
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "overlay_font_size": 30,
+        "overlay_align": "center",
+        "img": "images/system/goal_required_keys.png",
+        "img_mods": "",
+        "codes": "goal_required_keys"
     }
 ]

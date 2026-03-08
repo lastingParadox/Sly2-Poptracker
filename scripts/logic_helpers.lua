@@ -31,16 +31,16 @@ end
 
 function anatomy_for_disaster_check(amount)
     local clockwerk_count = Tracker:ProviderCountForCode("clockwerkpart")
-    local required_part_count = Tracker:ProviderCountForCode("episode8keysrequired")
+    local required_part_count = Tracker:ProviderCountForCode("episode_8_keys_required")
     amount = tonumber(amount)
 
-    -- Setting: episode8keysepisode
-    if has_item("episode8keysepisode") then
+    -- Setting: episode_8_keys_episode
+    if has_item("episode_8_keys_episode") then
         return clockwerk_count >= required_part_count
     end
 
-    -- Setting: episode8keysfirst
-    if has_item("episode8keysfirst") then
+    -- Setting: episode_8_keys_first
+    if has_item("episode_8_keys_first") then
         if amount == 1 then
             return clockwerk_count >= required_part_count
         else
@@ -48,8 +48,8 @@ function anatomy_for_disaster_check(amount)
         end
     end
 
-    -- Setting: episode8keyslast
-    if has_item("episode8keyslast") then
+    -- Setting: episode_8_keys_last
+    if has_item("episode_8_keys_last") then
         if amount == 4 then
             return clockwerk_count >= required_part_count
         else
@@ -57,7 +57,7 @@ function anatomy_for_disaster_check(amount)
         end
     end
 
-    -- Setting: episode8keysoff (default/fallback)
+    -- Setting: episode_8_keys_off (default/fallback)
     -- Progressive requirement scales with level 1–4
     return has_item("progressive_anatomy_for_disaster", amount)
 end

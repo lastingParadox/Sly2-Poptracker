@@ -281,7 +281,7 @@
         "content": [
             {
                 "type": "group",
-                "header": "Episode 8 Keys",
+                "header": "Location Rules",
                 "margin": "0,0,4,0",
                 "content": {
                     "type": "itemgrid",
@@ -293,12 +293,39 @@
                     "item_margin": 0,
                     "item_v_alignment": "top",
                     "item_h_alignment": "center",
-                    "rows": [["episode8keysfirst"], ["episode8keysrequired"]]
+                    "rows": [
+                        ["include_vaults"],
+                        ["include_pickpocketing"],
+                        ["bottlesanity"],
+                        ["bottle_location_bundle_size"]
+                    ]
                 }
             },
             {
                 "type": "group",
-                "header": "Bottlesanity",
+                "header": "Item Pool Flags",
+                "margin": "4,0,4,0",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "stretch",
+                    "background": "#000000",
+                    "item_width": 218,
+                    "item_height": 83,
+                    "margin": "0,0,0,0",
+                    "item_margin": 0,
+                    "item_v_alignment": "top",
+                    "item_h_alignment": "center",
+                    "rows": [
+                        ["include_tom"],
+                        ["include_mega_jump"],
+                        ["include_time_rush"],
+                        ["bottle_bundle_size"]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Goal & Episode 8",
                 "margin": "4,0,0,0",
                 "content": {
                     "type": "itemgrid",
@@ -310,7 +337,12 @@
                     "item_margin": 0,
                     "item_v_alignment": "top",
                     "item_h_alignment": "center",
-                    "rows": [["bottlesanityoff"], ["bottle_bundle_size"]]
+                    "rows": [
+                        ["goal"],
+                        ["goal_required_keys"],
+                        ["episode_8_keys"],
+                        ["episode_8_keys_required"]
+                    ]
                 }
             }
         ]

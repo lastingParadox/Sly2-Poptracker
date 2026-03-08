@@ -1,5 +1,6 @@
 ScriptHost:LoadScript("scripts/items_import.lua")
 ScriptHost:LoadScript("scripts/logic_helpers.lua")
+ScriptHost:LoadScript("scripts/settings_logic.lua")
 
 Tracker:AddMaps("maps/maps.json")
 

@@ -1,0 +1,221 @@
+[
+    {
+        "name": "The Black Chateau Loot",
+        "access_rules": ["$has_item|progressive_black_chateau|1"],
+        "chest_opened_img": "images/icons/treasure.png",
+        "chest_unopened_img": "images/icons/treasure_uncollected.png",
+        "sections": [
+            { "name": "Bronze Comb", "hosted_item": "bronze_comb_loot" },
+            { "name": "Silver Comb", "hosted_item": "silver_comb_loot" },
+            { "name": "Gold Comb", "hosted_item": "gold_comb_loot" },
+            { "name": "Bronze Ring", "hosted_item": "bronze_ring_loot" },
+            { "name": "Silver Ring", "hosted_item": "silver_ring_loot" },
+            { "name": "Gold Ring", "hosted_item": "gold_ring_loot" },
+            { "name": "Bronze Watch", "hosted_item": "bronze_watch_loot" },
+            { "name": "Silver Watch", "hosted_item": "silver_watch_loot" },
+            { "name": "Gold Watch", "hosted_item": "gold_watch_loot" }
+        ],
+        "map_locations": [
+            {
+                "map": "The Black Chateau",
+                "x": 50,
+                "y": 50
+            }
+        ]
+    },
+    {
+        "name": "A Starry Eyed Encounter Loot",
+        "access_rules": ["$has_item|progressive_starry_eyed_encounter|1"],
+        "chest_opened_img": "images/icons/treasure.png",
+        "chest_unopened_img": "images/icons/treasure_uncollected.png",
+        "sections": [
+            { "name": "Bronze Ring", "hosted_item": "bronze_ring_loot" },
+            { "name": "Silver Ring", "hosted_item": "silver_ring_loot" },
+            { "name": "Gold Ring", "hosted_item": "gold_ring_loot" },
+            { "name": "Bronze Pen", "hosted_item": "bronze_pen_loot" },
+            { "name": "Silver Pen", "hosted_item": "silver_pen_loot" },
+            { "name": "Gold Pen", "hosted_item": "gold_pen_loot" },
+            { "name": "Bronze Medal", "hosted_item": "bronze_medal_loot" },
+            { "name": "Silver Medal", "hosted_item": "silver_medal_loot" },
+            { "name": "Gold Medal", "hosted_item": "gold_medal_loot" }
+        ],
+        "map_locations": [
+            {
+                "map": "A Starry Eyed Encounter",
+                "x": 50,
+                "y": 50
+            }
+        ]
+    },
+    {
+        "name": "The Predator Awakes Loot",
+        "access_rules": ["$has_item|progressive_predator_awakes|1"],
+        "chest_opened_img": "images/icons/treasure.png",
+        "chest_unopened_img": "images/icons/treasure_uncollected.png",
+        "sections": [
+            { "name": "Bronze Ring", "hosted_item": "bronze_ring_loot" },
+            { "name": "Silver Ring", "hosted_item": "silver_ring_loot" },
+            { "name": "Gold Ring", "hosted_item": "gold_ring_loot" },
+            { "name": "Bronze Pen", "hosted_item": "bronze_pen_loot" },
+            { "name": "Silver Pen", "hosted_item": "silver_pen_loot" },
+            { "name": "Gold Pen", "hosted_item": "gold_pen_loot" },
+            { "name": "Bronze Medal", "hosted_item": "bronze_medal_loot" },
+            { "name": "Silver Medal", "hosted_item": "silver_medal_loot" },
+            { "name": "Gold Medal", "hosted_item": "gold_medal_loot" }
+        ],
+        "map_locations": [
+            {
+                "map": "The Predator Awakes",
+                "x": 50,
+                "y": 50
+            }
+        ]
+    },
+    {
+        "name": "Jailbreak Loot",
+        "access_rules": ["$has_item|progressive_jailbreak|1"],
+        "chest_opened_img": "images/icons/treasure.png",
+        "chest_unopened_img": "images/icons/treasure_uncollected.png",
+        "sections": [
+            { "name": "Bronze Medal", "hosted_item": "bronze_medal_loot" },
+            { "name": "Silver Medal", "hosted_item": "silver_medal_loot" },
+            { "name": "Gold Medal", "hosted_item": "gold_medal_loot" },
+            {
+                "name": "Bronze Pocket Watch",
+                "hosted_item": "bronze_pocket_watch_loot"
+            },
+            {
+                "name": "Silver Pocket Watch",
+                "hosted_item": "silver_pocket_watch_loot"
+            },
+            {
+                "name": "Gold Pocket Watch",
+                "hosted_item": "gold_pocket_watch_loot"
+            },
+            { "name": "Topaz", "hosted_item": "topaz_loot" },
+            { "name": "Sapphire", "hosted_item": "sapphire_loot" },
+            { "name": "Ruby", "hosted_item": "ruby_loot" }
+        ],
+        "map_locations": [
+            {
+                "map": "Jailbreak",
+                "x": 50,
+                "y": 50
+            }
+        ]
+    },
+    {
+        "name": "A Tangled Web Loot",
+        "access_rules": ["$has_item|progressive_tangled_web|1"],
+        "chest_opened_img": "images/icons/treasure.png",
+        "chest_unopened_img": "images/icons/treasure_uncollected.png",
+        "sections": [
+            { "name": "Bronze Medal", "hosted_item": "bronze_medal_loot" },
+            { "name": "Silver Medal", "hosted_item": "silver_medal_loot" },
+            { "name": "Gold Medal", "hosted_item": "gold_medal_loot" },
+            {
+                "name": "Bronze Pocket Watch",
+                "hosted_item": "bronze_pocket_watch_loot"
+            },
+            {
+                "name": "Silver Pocket Watch",
+                "hosted_item": "silver_pocket_watch_loot"
+            },
+            {
+                "name": "Gold Pocket Watch",
+                "hosted_item": "gold_pocket_watch_loot"
+            },
+            { "name": "Topaz", "hosted_item": "topaz_loot" },
+            { "name": "Sapphire", "hosted_item": "sapphire_loot" },
+            { "name": "Ruby", "hosted_item": "ruby_loot" }
+        ],
+        "map_locations": [
+            {
+                "map": "A Tangled Web",
+                "x": 50,
+                "y": 50
+            }
+        ]
+    },
+    {
+        "name": "He Who Tames the Iron Horse Loot",
+        "access_rules": ["$has_item|progressive_he_who_tames_the_iron_horse|1"],
+        "chest_opened_img": "images/icons/treasure.png",
+        "chest_unopened_img": "images/icons/treasure_uncollected.png",
+        "sections": [
+            { "name": "Small Nugget", "hosted_item": "small_nugget_loot" },
+            { "name": "Medium Nugget", "hosted_item": "medium_nugget_loot" },
+            { "name": "Large Gold Bar", "hosted_item": "large_gold_bar_loot" },
+            { "name": "Topaz", "hosted_item": "topaz_loot" },
+            { "name": "Sapphire", "hosted_item": "sapphire_loot" },
+            { "name": "Ruby", "hosted_item": "ruby_loot" },
+            { "name": "Small Necklace", "hosted_item": "small_necklace_loot" },
+            {
+                "name": "Medium Necklace",
+                "hosted_item": "medium_necklace_loot"
+            },
+            { "name": "Large Necklace", "hosted_item": "large_necklace_loot" }
+        ],
+        "map_locations": [
+            {
+                "map": "He Who Tames the Iron Horse",
+                "x": 50,
+                "y": 50
+            }
+        ]
+    },
+    {
+        "name": "Menace from the North Loot",
+        "access_rules": ["$has_item|progressive_menace_from_the_north|1"],
+        "chest_opened_img": "images/icons/treasure.png",
+        "chest_unopened_img": "images/icons/treasure_uncollected.png",
+        "sections": [
+            { "name": "Small Nugget", "hosted_item": "small_nugget_loot" },
+            { "name": "Medium Nugget", "hosted_item": "medium_nugget_loot" },
+            { "name": "Large Gold Bar", "hosted_item": "large_gold_bar_loot" },
+            { "name": "Topaz", "hosted_item": "topaz_loot" },
+            { "name": "Sapphire", "hosted_item": "sapphire_loot" },
+            { "name": "Ruby", "hosted_item": "ruby_loot" },
+            { "name": "Small Necklace", "hosted_item": "small_necklace_loot" },
+            {
+                "name": "Medium Necklace",
+                "hosted_item": "medium_necklace_loot"
+            },
+            { "name": "Large Necklace", "hosted_item": "large_necklace_loot" }
+        ],
+        "map_locations": [
+            {
+                "map": "Menace from the North, eh!",
+                "x": 50,
+                "y": 50
+            }
+        ]
+    },
+    {
+        "name": "Anatomy for Disaster Loot",
+        "access_rules": ["$anatomy_for_disaster_check|1"],
+        "chest_opened_img": "images/icons/treasure.png",
+        "chest_unopened_img": "images/icons/treasure_uncollected.png",
+        "sections": [
+            { "name": "Small Nugget", "hosted_item": "small_nugget_loot" },
+            { "name": "Medium Nugget", "hosted_item": "medium_nugget_loot" },
+            { "name": "Large Gold Bar", "hosted_item": "large_gold_bar_loot" },
+            { "name": "Small Diamond", "hosted_item": "small_diamond_loot" },
+            { "name": "Medium Diamond", "hosted_item": "medium_diamond_loot" },
+            { "name": "Large Diamond", "hosted_item": "large_diamond_loot" },
+            { "name": "Small Necklace", "hosted_item": "small_necklace_loot" },
+            {
+                "name": "Medium Necklace",
+                "hosted_item": "medium_necklace_loot"
+            },
+            { "name": "Large Necklace", "hosted_item": "large_necklace_loot" }
+        ],
+        "map_locations": [
+            {
+                "map": "Anatomy for Disaster",
+                "x": 50,
+                "y": 50
+            }
+        ]
+    }
+]

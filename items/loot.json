@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Bronze Comb",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "bronze_comb_loot"
+    },
+    {
+        "name": "Silver Comb",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "silver_comb_loot"
+    },
+    {
+        "name": "Gold Comb",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "gold_comb_loot"
+    },
+    {
+        "name": "Bronze Ring",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "bronze_ring_loot"
+    },
+    {
+        "name": "Silver Ring",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "silver_ring_loot"
+    },
+    {
+        "name": "Gold Ring",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "gold_ring_loot"
+    },
+    {
+        "name": "Bronze Watch",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "bronze_watch_loot"
+    },
+    {
+        "name": "Silver Watch",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "silver_watch_loot"
+    },
+    {
+        "name": "Gold Watch",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "gold_watch_loot"
+    },
+    {
+        "name": "Bronze Pen",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "bronze_pen_loot"
+    },
+    {
+        "name": "Silver Pen",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "silver_pen_loot"
+    },
+    {
+        "name": "Gold Pen",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "gold_pen_loot"
+    },
+    {
+        "name": "Bronze Medal",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "bronze_medal_loot"
+    },
+    {
+        "name": "Silver Medal",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "silver_medal_loot"
+    },
+    {
+        "name": "Gold Medal",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "gold_medal_loot"
+    },
+    {
+        "name": "Bronze Pocket Watch",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "bronze_pocket_watch_loot"
+    },
+    {
+        "name": "Silver Pocket Watch",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "silver_pocket_watch_loot"
+    },
+    {
+        "name": "Gold Pocket Watch",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "gold_pocket_watch_loot"
+    },
+    {
+        "name": "Small Nugget",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "small_nugget_loot"
+    },
+    {
+        "name": "Medium Nugget",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "medium_nugget_loot"
+    },
+    {
+        "name": "Large Gold Bar",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "large_gold_bar_loot"
+    },
+    {
+        "name": "Topaz",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "topaz_loot"
+    },
+    {
+        "name": "Sapphire",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "sapphire_loot"
+    },
+    {
+        "name": "Ruby",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "ruby_loot"
+    },
+    {
+        "name": "Small Diamond",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "small_diamond_loot"
+    },
+    {
+        "name": "Medium Diamond",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "medium_diamond_loot"
+    },
+    {
+        "name": "Large Diamond",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "large_diamond_loot"
+    },
+    {
+        "name": "Small Necklace",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "small_necklace_loot"
+    },
+    {
+        "name": "Medium Necklace",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "medium_necklace_loot"
+    },
+    {
+        "name": "Large Necklace",
+        "type": "toggle",
+        "img": "images/icons/loot.png",
+        "codes": "large_necklace_loot"
+    }
+]

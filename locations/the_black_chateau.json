@@ -218,6 +218,7 @@
                 "chest_opened_img": "images/icons/vault.png",
                 "chest_unopened_img": "images/icons/vault_uncollected.png",
                 "access_rules": ["$vault_check|black_chateau|2"],
+                "visibility_rules": ["vaultson"],
                 "sections": [{ "name": "The Black Chateau Vault" }],
                 "map_locations": [
                     {

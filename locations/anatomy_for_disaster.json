@@ -153,6 +153,7 @@
                 "chest_opened_img": "images/icons/vault.png",
                 "chest_unopened_img": "images/icons/vault_uncollected.png",
                 "access_rules": ["$vault_check|anatomy_for_disaster|2"],
+                "visibility_rules": ["vaultson"],
                 "sections": [{ "name": "Anatomy for Disaster Vault" }],
                 "map_locations": [
                     {

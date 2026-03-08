@@ -109,7 +109,8 @@
                         "name": "A Starry Eyed Encounter Vault",
                         "chest_opened_img": "images/icons/vault.png",
                         "chest_unopened_img": "images/icons/vault_uncollected.png",
-                        "access_rules": ["$vault_check|starry_eyed_encounter|3"]
+                        "access_rules": ["$vault_check|starry_eyed_encounter|3"],
+                        "visibility_rules": ["vaultson"]
                     }
                 ],
                 "map_locations": [
