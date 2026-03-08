@@ -1,8 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.1.6",
+            "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.6/Sly2-Poptracker_0.1.6.zip",
+            "sha256": "b0e40b5d393b835d89eff01626988cd31a45307fae081150c2a680d4ae4c50d9",
+            "changelog": [
+                "Added pickpocketing, vaults, TOM, mega jump, time rush, goal settings, added loot locations for each episode. Resolved issue with item ids being offset by 1."
+            ]
+        },
+        {
             "package_version": "0.1.5",
-            "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.4/Sly2-Poptracker_0.1.5.zip",
+            "download_url": "https://github.com/lastingParadox/Sly2-Poptracker/releases/download/0.1.5/Sly2-Poptracker_0.1.5.zip",
             "sha256": "b0e40b5d393b835d89eff01626988cd31a45307fae081150c2a680d4ae4c50d9",
             "changelog": [
                 "Fixed bottlesanity option when hooked up to AP. Swaps location ids of Decanter and Collectible Plate treasures."
