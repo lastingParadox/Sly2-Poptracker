@@ -70,7 +70,8 @@ local function update_bottlesanity_visibility()
                 if bottlesanity_saved_stage ~= nil then
                     bottlesanity_item.CurrentStage = bottlesanity_saved_stage
                     if bottlesanity_item.CurrentStage == 0 then
-                        bottlesanity_item.Icon = ImageReference:FromPackRelativePath("images/system/bottlesanity_off.png")
+                        bottlesanity_item.Icon = ImageReference:FromPackRelativePath(
+                        "images/system/bottlesanity_off.png")
                     else
                         bottlesanity_item.Icon = ImageReference:FromPackRelativePath("images/system/bottlesanity_on.png")
                     end
